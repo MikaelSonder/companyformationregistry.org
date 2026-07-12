@@ -1,1 +1,32 @@
-d
+site: https://companyformationregistry.org/
+name: Company Formation Registry
+type: Editorial reference registry
+primary_language: en
+coverage: International
+domain_focus: Company formation and corporate establishment across jurisdictions
+
+summary:
+Structured international registry explaining how company formation and corporate establishment operate across jurisdictions.
+Editorial reference content, not marketing content.
+
+content_model:
+One professional domain in one jurisdiction.
+
+key_areas:
+- Legal forms
+- Registration authorities
+- Governance
+- Trade licensing
+- Tax onboarding
+- Social security onboarding
+- Cross-border establishment
+- Process and timelines
+- Required documents
+- Operating constraints and risks
+
+main_urls:
+- https://companyformationregistry.org/
+- https://companyformationregistry.org/jurisdictions
+
+more:
+https://companyformationregistry.org/llms-full.txt
