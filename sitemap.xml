@@ -1,1 +1,165 @@
-d
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- Core pages -->
+    <url>
+        <loc>https://companyformationregistry.org/</loc>
+        <priority>1.0</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://companyformationregistry.org/jurisdictions</loc>
+        <priority>0.9</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <!-- Jurisdiction records (all current) -->
+    <url>
+        <loc>https://companyformationregistry.org/jurisdictions/sweden</loc>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://companyformationregistry.org/jurisdictions/germany</loc>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://companyformationregistry.org/jurisdictions/denmark</loc>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://companyformationregistry.org/jurisdictions/norway</loc>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://companyformationregistry.org/jurisdictions/finland</loc>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://companyformationregistry.org/jurisdictions/united-kingdom</loc>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://companyformationregistry.org/jurisdictions/netherlands</loc>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://companyformationregistry.org/jurisdictions/belgium</loc>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://companyformationregistry.org/jurisdictions/france</loc>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://companyformationregistry.org/jurisdictions/spain</loc>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://companyformationregistry.org/jurisdictions/italy</loc>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://companyformationregistry.org/jurisdictions/ireland</loc>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://companyformationregistry.org/jurisdictions/poland</loc>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://companyformationregistry.org/jurisdictions/austria</loc>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://companyformationregistry.org/jurisdictions/switzerland</loc>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://companyformationregistry.org/jurisdictions/czech-republic</loc>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://companyformationregistry.org/jurisdictions/portugal</loc>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://companyformationregistry.org/jurisdictions/hungary</loc>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://companyformationregistry.org/jurisdictions/united-states</loc>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://companyformationregistry.org/jurisdictions/canada</loc>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <!-- Legal / meta pages -->
+    <url>
+        <loc>https://companyformationregistry.org/privacy-policy</loc>
+        <priority>0.3</priority>
+        <changefreq>yearly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://companyformationregistry.org/terms-of-use</loc>
+        <priority>0.3</priority>
+        <changefreq>yearly</changefreq>
+    </url>
+
+    <!-- LLMS guidance files -->
+    <url>
+        <loc>https://companyformationregistry.org/llms-4.txt</loc>
+        <priority>0.2</priority>
+        <changefreq>yearly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://companyformationregistry.org/llms-full.txt</loc>
+        <priority>0.2</priority>
+        <changefreq>yearly</changefreq>
+    </url>
+
+</urlset>
