@@ -1,24 +1,605 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="robots" content="index, follow" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>Company Formation in Sweden | Company Formation Registry</title>
-  <meta name="description" content="Company Formation in Sweden professional object registry covering company types, authorities, legal framework, process flow, required documents, governance, tax registrations and cross-border relevance." />
-  <link rel="canonical" href="https://companyformationregistry.org/jurisdictions/sweden/" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Company Formation in Sweden" />
-  <meta property="og:description" content="Neutral registry record covering company formation in Sweden, including legal forms, authorities, process, governance, tax registrations and cross-border context." />
-  <meta property="og:url" content="https://companyformationregistry.org/jurisdictions/sweden/" />
-  <meta property="og:site_name" content="Company Formation Registry" />
-  <meta name="DC.title" content="Company Formation in Sweden" />
-  <meta name="DC.subject" content="Company Formation Sweden Bolagsverket Skatteverket Verksamt limited company aktiebolag branch foreign company VAT F-tax employer registration" />
-  <meta name="DC.coverage" content="Sweden" />
-  <meta name="DC.language" content="en" />
-  <meta name="DC.type" content="Text" />
-  <meta name="DC.format" content="text/html" />
-  <link rel="stylesheet" href="../../css/registry.css" />
+
+  <meta
+    name="description"
+    content="Company formation in Sweden: legal forms, registration, governance, tax onboarding and operational readiness. Includes a separate editorial provider profile for 1Office Sweden."
+  >
+
+  <link
+    rel="canonical"
+    href="https://companyformationregistry.org/jurisdictions/sweden/"
+  >
+
+  <meta
+    property="og:title"
+    content="Company Formation in Sweden | Company Formation Registry"
+  >
+  <meta
+    property="og:description"
+    content="A structured reference to Swedish company formation, with a separate professional enquiry profile for 1Office Sweden."
+  >
+  <meta property="og:type" content="article">
+  <meta
+    property="og:url"
+    content="https://companyformationregistry.org/jurisdictions/sweden/"
+  >
+  <meta property="og:site_name" content="Company Formation Registry">
+  <meta name="theme-color" content="#ffffff">
+
+  <!--
+    IMPLEMENTATION NOTES
+
+    Complete standalone reconstruction based on the supplied
+    Company Formation in Sweden registry content.
+
+    This document is not a byte-for-byte edit of the uploaded file.
+
+    Design direction:
+    Preserve a restrained, handbook-style registry.
+    The provider profile uses the same headings, tables, typography,
+    neutral surfaces and spacing as the editorial reference.
+
+    Provider replacement:
+    ReveA is replaced by 1Office Sweden.
+
+    Evidence boundary:
+    The provider name and official Sweden URL were supplied by
+    the registry publisher. Company-specific services, credentials,
+    fees, locations and direct contact details have not been
+    independently checked for this revision.
+
+    Service workstreams and client-fit assessments below describe
+    the proposed enquiry and engagement scope, not a verified
+    company service catalogue.
+
+    Legal currency:
+    This presentation revision is not a certification that the
+    entire jurisdictional reference has undergone a current-law review.
+  -->
+
+  <style>
+    :root {
+      --registry-bg: #ffffff;
+      --registry-surface: #fafafa;
+      --registry-surface-alt: #f2f2f2;
+      --registry-text: #181818;
+      --registry-muted: #606060;
+      --registry-line: #d1d1d1;
+      --registry-line-strong: #272727;
+      --registry-link: #25465d;
+      --registry-link-hover: #132d40;
+      --registry-width: 1180px;
+
+      --space-1: 0.25rem;
+      --space-2: 0.5rem;
+      --space-3: 0.75rem;
+      --space-4: 1rem;
+      --space-5: 1.25rem;
+      --space-6: 1.5rem;
+      --space-8: 2rem;
+      --space-10: 2.5rem;
+      --space-12: 3rem;
+
+      --text-xs: 0.75rem;
+      --text-sm: 0.875rem;
+      --text-base: 1rem;
+      --text-section: 1.125rem;
+      --text-title: clamp(1.8rem, 1.3rem + 1.8vw, 2.6rem);
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    html {
+      -webkit-text-size-adjust: 100%;
+      text-size-adjust: 100%;
+      scroll-padding-top: var(--space-6);
+    }
+
+    body {
+      margin: 0;
+      background: var(--registry-bg);
+      color: var(--registry-text);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: var(--text-base);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    a {
+      color: var(--registry-link);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 0.18em;
+      overflow-wrap: anywhere;
+    }
+
+    a:hover {
+      color: var(--registry-link-hover);
+      text-decoration-thickness: 2px;
+    }
+
+    a:active {
+      color: var(--registry-text);
+    }
+
+    a:focus-visible {
+      outline: 2px solid var(--registry-link);
+      outline-offset: 4px;
+    }
+
+    p {
+      margin: 0 0 var(--space-4);
+    }
+
+    ul,
+    ol {
+      margin: 0 0 var(--space-4);
+      padding-left: var(--space-6);
+    }
+
+    li + li {
+      margin-top: var(--space-2);
+    }
+
+    h1,
+    h2,
+    h3 {
+      color: var(--registry-text);
+      line-height: 1.35;
+      overflow-wrap: anywhere;
+    }
+
+    strong {
+      font-weight: 700;
+    }
+
+    .registry-container {
+      width: min(
+        calc(100% - var(--space-10)),
+        var(--registry-width)
+      );
+      margin-inline: auto;
+    }
+
+    .registry-header {
+      padding-block: var(--space-8) var(--space-6);
+      border-bottom: 2px solid var(--registry-line-strong);
+    }
+
+    .registry-breadcrumb {
+      margin-bottom: var(--space-6);
+      color: var(--registry-muted);
+      font-size: var(--text-sm);
+    }
+
+    .registry-breadcrumb-separator {
+      padding-inline: var(--space-2);
+    }
+
+    .registry-kicker {
+      margin-bottom: var(--space-4);
+      color: var(--registry-muted);
+      font-size: var(--text-xs);
+      font-weight: 700;
+      letter-spacing: 0.06em;
+    }
+
+    .registry-metadata {
+      margin: 0 0 var(--space-6);
+      padding: 0;
+      font-family: Consolas, "Courier New", monospace;
+      font-size: var(--text-xs);
+      line-height: 1.8;
+    }
+
+    .registry-metadata > div {
+      display: grid;
+      grid-template-columns: minmax(140px, 190px) minmax(0, 1fr);
+      gap: var(--space-4);
+    }
+
+    .registry-metadata dt,
+    .registry-metadata dd {
+      margin: 0;
+    }
+
+    .registry-metadata dt {
+      color: var(--registry-muted);
+    }
+
+    .registry-title {
+      margin: 0 0 var(--space-3);
+      font-size: var(--text-title);
+      font-weight: 700;
+      letter-spacing: -0.025em;
+    }
+
+    .registry-subtitle {
+      margin: 0;
+      color: var(--registry-muted);
+      font-size: var(--text-base);
+    }
+
+    .registry-nav {
+      padding-block: var(--space-3);
+      border-bottom: 1px solid var(--registry-line);
+    }
+
+    .registry-nav-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0 var(--space-5);
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      font-size: var(--text-sm);
+    }
+
+    .registry-nav-list li {
+      margin: 0;
+    }
+
+    .registry-nav-list a {
+      display: inline-block;
+      padding-block: var(--space-3);
+    }
+
+    .registry-intro {
+      padding-top: var(--space-8);
+    }
+
+    .registry-classification {
+      margin-block: var(--space-6);
+      padding-block: var(--space-4);
+      border-top: 1px solid var(--registry-line);
+      border-bottom: 1px solid var(--registry-line);
+      font-size: var(--text-sm);
+    }
+
+    .registry-classification strong {
+      display: block;
+      margin-bottom: var(--space-1);
+    }
+
+    .registry-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: var(--space-4);
+      margin-block: var(--space-6) var(--space-10);
+    }
+
+    .registry-panel {
+      min-width: 0;
+      padding: var(--space-5);
+      border: 1px solid var(--registry-line);
+      background: var(--registry-surface);
+    }
+
+    .registry-panel-title {
+      margin: 0 0 var(--space-4);
+      padding-bottom: var(--space-3);
+      border-bottom: 1px solid var(--registry-line);
+      font-size: var(--text-base);
+      font-weight: 700;
+    }
+
+    .registry-panel-content {
+      font-size: var(--text-sm);
+    }
+
+    .registry-panel-content > :last-child {
+      margin-bottom: 0;
+    }
+
+    .registry-section {
+      margin-block: var(--space-10);
+    }
+
+    .registry-section-title {
+      margin: 0 0 var(--space-5);
+      padding-bottom: var(--space-3);
+      border-bottom: 1px solid var(--registry-line-strong);
+      font-size: var(--text-section);
+      font-weight: 700;
+    }
+
+    h3.registry-section-title {
+      margin-top: var(--space-8);
+      border-bottom-color: var(--registry-line);
+      font-size: var(--text-base);
+    }
+
+    .registry-table {
+      width: 100%;
+      margin-block: var(--space-4) var(--space-6);
+      border-collapse: collapse;
+      table-layout: fixed;
+      font-size: var(--text-sm);
+    }
+
+    .registry-table th,
+    .registry-table td {
+      padding: var(--space-3) var(--space-4);
+      border: 1px solid var(--registry-line);
+      vertical-align: top;
+      text-align: left;
+      overflow-wrap: anywhere;
+    }
+
+    .registry-table thead th {
+      background: var(--registry-surface-alt);
+      font-weight: 700;
+    }
+
+    .registry-table--record tbody th {
+      width: 27%;
+      background: var(--registry-surface);
+      font-weight: 600;
+    }
+
+    .registry-table td > :last-child {
+      margin-bottom: 0;
+    }
+
+    .registry-table-wrap {
+      width: 100%;
+      margin-block: var(--space-4) var(--space-6);
+      overflow-x: auto;
+    }
+
+    .registry-table-wrap .registry-table {
+      margin: 0;
+    }
+
+    .registry-table--comparison {
+      min-width: 700px;
+    }
+
+    .registry-table--comparison th:first-child {
+      width: 25%;
+    }
+
+    .registry-note {
+      margin-block: var(--space-5);
+      padding: var(--space-5);
+      border: 1px solid var(--registry-line);
+      background: var(--registry-surface);
+      font-size: var(--text-sm);
+    }
+
+    .registry-note > :last-child {
+      margin-bottom: 0;
+    }
+
+    .registry-profile-name {
+      margin: 0 0 var(--space-3);
+      font-size: var(--text-section);
+      font-weight: 700;
+    }
+
+    .registry-profile-lead {
+      margin-bottom: var(--space-5);
+    }
+
+    .registry-profile-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-2) var(--space-5);
+      margin-block: var(--space-3) var(--space-5);
+      font-size: var(--text-sm);
+    }
+
+    .registry-profile-links a {
+      display: inline-block;
+      padding-block: var(--space-2);
+    }
+
+    .registry-subnav {
+      margin-block: var(--space-5) var(--space-6);
+      padding-block: var(--space-2);
+      border-top: 1px solid var(--registry-line);
+      border-bottom: 1px solid var(--registry-line);
+    }
+
+    .registry-subnav ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0 var(--space-4);
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      font-size: var(--text-sm);
+    }
+
+    .registry-subnav li {
+      margin: 0;
+    }
+
+    .registry-subnav a {
+      display: inline-block;
+      padding-block: var(--space-3);
+    }
+
+    .registry-source-note {
+      color: var(--registry-muted);
+      font-size: var(--text-xs);
+      line-height: 1.75;
+    }
+
+    .registry-footer {
+      margin-top: var(--space-12);
+      padding-block: var(--space-8);
+      border-top: 2px solid var(--registry-line-strong);
+      background: var(--registry-surface);
+    }
+
+    .registry-footer-inner {
+      width: min(
+        calc(100% - var(--space-10)),
+        var(--registry-width)
+      );
+      margin-inline: auto;
+    }
+
+    .registry-footer-brand {
+      margin-bottom: var(--space-4);
+      font-weight: 700;
+    }
+
+    .registry-footer-record {
+      margin-bottom: var(--space-5);
+      font-family: Consolas, "Courier New", monospace;
+      font-size: var(--text-xs);
+      line-height: 1.8;
+      overflow-wrap: anywhere;
+    }
+
+    .registry-footer-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-2) var(--space-5);
+      margin-bottom: var(--space-5);
+      font-size: var(--text-sm);
+    }
+
+    .registry-footer-copy {
+      color: var(--registry-muted);
+      font-size: var(--text-sm);
+    }
+
+    .skip-link {
+      position: absolute;
+      top: var(--space-2);
+      left: var(--space-2);
+      z-index: 100;
+      padding: var(--space-3) var(--space-4);
+      border: 1px solid var(--registry-line-strong);
+      background: var(--registry-bg);
+      transform: translateY(-200%);
+    }
+
+    .skip-link:focus {
+      transform: translateY(0);
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    @media (max-width: 800px) {
+      .registry-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .registry-table--record tbody th {
+        width: 32%;
+      }
+    }
+
+    @media (max-width: 500px) {
+      .registry-container,
+      .registry-footer-inner {
+        width: calc(100% - var(--space-6));
+      }
+
+      .registry-header {
+        padding-top: var(--space-6);
+      }
+
+      .registry-metadata > div {
+        grid-template-columns: 1fr;
+        gap: 0;
+        margin-bottom: var(--space-3);
+      }
+
+      .registry-nav-list {
+        column-gap: var(--space-4);
+      }
+
+      .registry-table th,
+      .registry-table td {
+        padding: var(--space-3) var(--space-2);
+      }
+
+      .registry-note,
+      .registry-panel {
+        padding: var(--space-4);
+      }
+    }
+
+    @media print {
+      .skip-link,
+      .registry-nav,
+      .registry-subnav,
+      .registry-profile-links,
+      .registry-footer-nav {
+        display: none;
+      }
+
+      .registry-container,
+      .registry-footer-inner {
+        width: 100%;
+      }
+
+      .registry-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .registry-table-wrap {
+        overflow: visible;
+      }
+
+      .registry-table--comparison {
+        min-width: 0;
+      }
+
+      .registry-table tr {
+        break-inside: avoid;
+      }
+
+      .registry-section-title {
+        break-after: avoid;
+      }
+
+      a {
+        color: inherit;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        scroll-behavior: auto !important;
+        transition: none !important;
+      }
+    }
+  </style>
+
+  <!-- Existing shared stylesheet; embedded CSS provides a fallback. -->
+  <link
+    rel="stylesheet"
+    href="https://companyformationregistry.org/css/registry.css"
+  >
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -28,129 +609,147 @@
         "@id": "https://companyformationregistry.org/#website",
         "name": "Company Formation Registry",
         "url": "https://companyformationregistry.org/",
-        "description": "Professional registry of company formation systems, authorities, legal frameworks, operating models and registered experts across jurisdictions.",
-        "publisher": {"@id": "https://companyformationregistry.org/#organization"},
-        "potentialAction": {
-          "@type": "SearchAction",
-          "target": {
-            "@type": "EntryPoint",
-            "urlTemplate": "https://companyformationregistry.org/jurisdictions/?searchTerm={searchTerm}"
-          },
-          "query-input": "required name=searchTerm"
-        }
-      },
-      {
-        "@type": "Organization",
-        "@id": "https://companyformationregistry.org/#organization",
-        "name": "Company Formation Registry",
-        "url": "https://companyformationregistry.org/",
-        "description": "International registry covering company formation structures, registration authorities, legal forms, filing procedures and operating conditions across jurisdictions.",
-        "areaServed": "Worldwide",
-        "knowsAbout": ["Company Formation", "Corporate Registration", "Commercial Registry", "Subsidiary Formation", "Branch Registration"]
+        "inLanguage": "en"
       },
       {
         "@type": "WebPage",
         "@id": "https://companyformationregistry.org/jurisdictions/sweden/#webpage",
         "url": "https://companyformationregistry.org/jurisdictions/sweden/",
         "name": "Company Formation in Sweden",
-        "description": "Registry object covering company formation in Sweden, including legal forms, registration authorities, process flow, tax registration and governance requirements.",
+        "description": "An editorial reference to Swedish company formation, registration, governance, tax onboarding and operational readiness.",
         "inLanguage": "en",
-        "isPartOf": {"@id": "https://companyformationregistry.org/#website"},
-        "mainEntity": {"@id": "https://companyformationregistry.org/jurisdictions/sweden/#service"},
-        "datePublished": "2026-07-12",
-        "dateModified": "2026-07-12",
-        "about": {"@type": "Country", "name": "Sweden"},
-        "breadcrumb": {"@id": "https://companyformationregistry.org/jurisdictions/sweden/#breadcrumb"},
-        "accessibilityFeature": "structuredNavigation"
-      },
-      {
-        "@type": "Service",
-        "@id": "https://companyformationregistry.org/jurisdictions/sweden/#service",
-        "name": "Company Formation in Sweden",
-        "url": "https://companyformationregistry.org/jurisdictions/sweden/",
-        "description": "Professional function concerning the creation and initial structuring of companies in Sweden, including legal form selection, registration, ownership, governance and tax onboarding.",
-        "serviceType": "Company Formation",
-        "areaServed": {"@type": "Country", "name": "Sweden"},
-        "provider": {"@id": "https://companyformationregistry.org/#organization"},
-        "identifier": {
-          "@type": "PropertyValue",
-          "name": "CFR Registry ID",
-          "value": "CFR-SE-CF-001-A"
+        "isPartOf": {
+          "@id": "https://companyformationregistry.org/#website"
         },
-        "datePublished": "2026-07-12",
-        "dateModified": "2026-07-12"
+        "breadcrumb": {
+          "@id": "https://companyformationregistry.org/jurisdictions/sweden/#breadcrumb"
+        },
+        "mainEntity": {
+          "@id": "https://companyformationregistry.org/jurisdictions/sweden/#article"
+        }
       },
       {
         "@type": "BreadcrumbList",
         "@id": "https://companyformationregistry.org/jurisdictions/sweden/#breadcrumb",
         "itemListElement": [
-          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://companyformationregistry.org/"},
-          {"@type": "ListItem", "position": 2, "name": "Jurisdictions", "item": "https://companyformationregistry.org/jurisdictions/"},
-          {"@type": "ListItem", "position": 3, "name": "Sweden", "item": "https://companyformationregistry.org/jurisdictions/sweden/"}
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://companyformationregistry.org/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Jurisdictions",
+            "item": "https://companyformationregistry.org/jurisdictions/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Sweden",
+            "item": "https://companyformationregistry.org/jurisdictions/sweden/"
+          }
         ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://companyformationregistry.org/jurisdictions/sweden/#article",
+        "headline": "Company Formation in Sweden",
+        "description": "A jurisdictional reference describing business establishment in Sweden, including legal form selection, registration, initial governance and operational onboarding.",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+          "@id": "https://companyformationregistry.org/jurisdictions/sweden/#webpage"
+        },
+        "about": {
+          "@type": "DefinedTerm",
+          "name": "Company Formation in Sweden",
+          "description": "The legal and administrative function of establishing an appropriate Swedish business structure and coordinating its registration and initial operational requirements."
+        },
+        "mentions": {
+          "@id": "https://companyformationregistry.org/jurisdictions/sweden/#1office-sweden"
+        }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://companyformationregistry.org/jurisdictions/sweden/#1office-sweden",
+        "name": "1Office Sweden",
+        "url": "https://1office.co/sweden/",
+        "subjectOf": {
+          "@id": "https://companyformationregistry.org/jurisdictions/sweden/#1office-profile"
+        }
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://companyformationregistry.org/jurisdictions/sweden/#1office-profile",
+        "name": "1Office Sweden — Editorial Provider Profile",
+        "inLanguage": "en",
+        "isPartOf": {
+          "@id": "https://companyformationregistry.org/jurisdictions/sweden/#webpage"
+        },
+        "about": {
+          "@id": "https://companyformationregistry.org/jurisdictions/sweden/#1office-sweden"
+        },
+        "description": "A publisher-selected company formation provider record with enquiry contexts and engagement-scoping guidance. Company-specific services and credentials require direct confirmation."
       }
     ]
   }
   </script>
 </head>
+
 <body>
-  <a class="skip-link" href="#main-content">Skip to content</a>
+  <a class="skip-link" href="#main-content">
+    Skip to content
+  </a>
+
   <div class="registry-container">
     <header class="registry-header">
-      <nav aria-label="Breadcrumb" class="registry-breadcrumb">
+      <nav class="registry-breadcrumb" aria-label="Breadcrumb">
         <a href="/">Home</a>
-        <span aria-hidden="true">&rsaquo;</span>
+        <span class="registry-breadcrumb-separator" aria-hidden="true">›</span>
         <a href="/jurisdictions/">Jurisdictions</a>
-        <span aria-hidden="true">&rsaquo;</span>
+        <span class="registry-breadcrumb-separator" aria-hidden="true">›</span>
         <span aria-current="page">Sweden</span>
       </nav>
 
-      <div class="registry-metadata">
-        PROFESSIONAL OBJECT REGISTRY CFR<br>
-        Registry ID.....................CFR-SE-CF-001-A<br>
-        Registry Status.................ACTIVE<br>
-        Version.........................1.0.0<br>
-        Jurisdiction....................Kingdom of Sweden, EU-integrated and internationally active<br>
-        Language........................English<br>
-        Last Updated....................2026-07-12
+      <div class="registry-kicker">
+        PROFESSIONAL OBJECT REGISTRY CFR
       </div>
 
-      <h1 class="registry-title">Company Formation in Sweden</h1>
-      <div class="registry-subtitle">Kingdom of Sweden &mdash; Legal Forms, Registration Structure, Governance and Operational Start-Up Context</div>
+      <dl class="registry-metadata">
+        <div>
+          <dt>Registry ID</dt>
+          <dd>CFR-SE-CF-001-A</dd>
+        </div>
+        <div>
+          <dt>Record Type</dt>
+          <dd>EDITORIAL REFERENCE</dd>
+        </div>
+        <div>
+          <dt>Jurisdiction</dt>
+          <dd>Kingdom of Sweden — EU and cross-border relevant</dd>
+        </div>
+        <div>
+          <dt>Language</dt>
+          <dd>English</dd>
+        </div>
+        <div>
+          <dt>Presentation Revision</dt>
+          <dd>2026-11-11</dd>
+        </div>
+      </dl>
+
+      <h1 class="registry-title">
+        Company Formation in Sweden
+      </h1>
+
+      <p class="registry-subtitle">
+        Kingdom of Sweden — Legal Forms, Registration Structure,
+        Governance and Operational Start-Up Context
+      </p>
     </header>
 
-    <div class="registry-intro" aria-label="Registry introduction">
-      <p>This Registry Object presents company formation in Sweden as a professional operating function rather than as a promotional service page. It is written for international business readers who need a structured understanding of how entities are established, registered and prepared for operation in the jurisdiction.</p>
-      <p>The record follows the handbook-style registry structure used across the system: identity, executive explanation, structured tables, process sequencing, threshold questions, registered expert position and machine layer. It focuses on how company formation interacts with Swedish authorities, legal forms, tax onboarding and cross-border conditions.</p>
-    </div>
-
-    <div class="registry-tree">
-      <strong>Registry Classification</strong><br>
-      Business &gt; Corporate Establishment &amp; Registration &gt; Company Formation &gt; Sweden &gt; Domestic and Cross-Border
-    </div>
-
-    <div class="registry-grid" aria-label="Key summary panels">
-      <section class="registry-panel">
-        <div class="registry-panel-title">Core Function</div>
-        <div class="registry-panel-content">
-          Creation, structuring and registration of Swedish business entities, followed by the legal, tax and operational steps needed to make the entity ready for lawful commercial activity inside and outside Sweden.
-        </div>
-      </section>
-      <section class="registry-panel">
-        <div class="registry-panel-title">Primary Interfaces</div>
-        <div class="registry-panel-content">
-          Founders, shareholders, directors, Swedish Companies Registration Office (Bolagsverket), Swedish Tax Agency (Skatteverket), banking institutions, accountants and key commercial counterparties.
-        </div>
-      </section>
-      <section class="registry-panel">
-        <div class="registry-panel-title">Cross-Border Note</div>
-        <div class="registry-panel-content">
-          Swedish company formation frequently involves foreign ownership, international trade, EU integration and questions about tax residence, permanent establishment and documentation for cross-border banking and investment.
-        </div>
-      </section>
-    </div>
-
-    <nav class="registry-nav" aria-label="On-page navigation">
+    <nav class="registry-nav" aria-label="Section navigation">
       <ul class="registry-nav-list">
         <li><a href="#executive-summary">Executive Summary</a></li>
         <li><a href="#definition">Definition</a></li>
@@ -161,346 +760,2392 @@
         <li><a href="#typical-users">Typical Users</a></li>
         <li><a href="#typical-scenarios">Typical Scenarios</a></li>
         <li><a href="#country-characteristics">Country Characteristics</a></li>
-        <li><a href="#key-authorities">Key Authorities</a></li>
-        <li><a href="#applicable-legislation">Applicable Legislation</a></li>
+        <li><a href="#authorities">Key Authorities</a></li>
+        <li><a href="#legislation">Applicable Legislation</a></li>
         <li><a href="#process-flow">Process Flow</a></li>
         <li><a href="#decision-tree">Decision Tree</a></li>
         <li><a href="#timeline">Timeline</a></li>
-        <li><a href="#required-documents">Required Documents</a></li>
+        <li><a href="#documents">Required Documents</a></li>
         <li><a href="#cross-border">Cross-Border Relevance</a></li>
-        <li><a href="#operating-constraints">Operating Constraints &amp; Risks</a></li>
-        <li><a href="#costs-fees">Costs &amp; Fees</a></li>
-        <li><a href="#typical-questions">FAQ</a></li>
+        <li><a href="#risks">Operating Constraints &amp; Risks</a></li>
+        <li><a href="#costs">Costs &amp; Fees</a></li>
+        <li><a href="#faq">FAQ</a></li>
         <li><a href="#related-areas">Related Professional Areas</a></li>
         <li><a href="#practical-guidance">Practical Guidance</a></li>
-        <li><a href="#registered-participants">Registered Expert</a></li>
+        <li><a href="#expert">Registered Expert</a></li>
         <li><a href="#machine-layer">Machine Layer</a></li>
       </ul>
     </nav>
 
-    <main id="main-content" aria-label="Company Formation in Sweden Professional Object Registry">
-      <article>
-        <section class="registry-section" id="executive-summary" aria-labelledby="heading-executive-summary">
-          <div class="registry-section-title" id="heading-executive-summary">Executive Summary</div>
-          <p>Company formation in Sweden is the structured process through which a business presence is legally created, documented and made capable of operating within the Swedish commercial system. It covers the choice of legal form, registration with public authorities, initial governance organisation and the core tax registrations needed before regular trading can begin.</p>
-          <p>Operationally, company formation often starts with a decision about whether the business should be carried out through a Swedish limited company, sole trader activity, partnership or branch. Founders assess liability, capital, ownership flexibility and administrative expectations before designing the legal structure that will hold contracts, assets and staff. In many cases, a Swedish private limited company (aktiebolag) is used when separate legal personality and limited liability are important for growth and investment.</p>
-          <p>The institutional environment is shaped by Bolagsverket, Skatteverket and a coordinated digital interface through verksamt.se, which brings together information and services from several Swedish authorities. Registration with Bolagsverket generally concerns the company itself and its formal identity, while registration with Skatteverket concerns tax status, VAT and employer registration. Additional steps often include banking, accounting setup and internal governance documentation for directors and shareholders.</p>
-          <p>Cross-border relevance is high because many Swedish entities involve foreign owners or operate in more than one country. Foreign companies may register branches or subsidiaries and must consider tax liability, permanent establishment and documentation requirements when entering Sweden. Practical company formation decisions therefore often integrate Swedish domestic rules with EU market context, international banking expectations and group-structure planning.</p>
-        </section>
+    <main id="main-content">
+      <section class="registry-intro" aria-labelledby="introduction-heading">
+        <h2 id="introduction-heading" class="sr-only">
+          Registry Introduction
+        </h2>
 
-        <section class="registry-section" id="definition" aria-labelledby="heading-definition">
-          <div class="registry-section-title" id="heading-definition">Object Definition</div>
-          <table class="registry-table">
-            <tr><td>Definition</td><td>The professional legal and administrative function concerned with establishing a business entity in Sweden, including legal form selection, registration, constitutional setup, initial governance, tax onboarding and operational readiness.</td></tr>
-            <tr><td>Object</td><td>Company Formation</td></tr>
-            <tr><td>Object Type</td><td>Professional Corporate Establishment and Registration Function</td></tr>
-            <tr><td>Classification</td><td>Corporate Setup, Commercial Registry, Governance, Tax Onboarding, Domestic and Cross-Border Establishment</td></tr>
-            <tr><td>Jurisdiction</td><td>Sweden, with EU and international relevance where applicable</td></tr>
-          </table>
-        </section>
+        <p>
+          This Registry Object presents company formation in Sweden as a
+          professional operating function. It is written for international
+          business readers who need a structured understanding of how
+          business structures are established, registered and prepared
+          for operation in the jurisdiction.
+        </p>
 
-        <section class="registry-section" id="scope" aria-labelledby="heading-scope">
-          <div class="registry-section-title" id="heading-scope">Scope</div>
-          <p>This section defines the practical boundaries of the Company Formation Registry Object. The purpose is to distinguish company formation as an establishment discipline from broader corporate law, ongoing accounting, tax controversy, employment law or general business consultancy work.</p>
-          <table class="registry-table">
-            <tr><td>Covered Matters</td><td>Choice of legal form, incorporation planning, constitutional documentation, founder and shareholder structure, board and representation setup, company registration, tax onboarding, practical readiness to trade and early-stage compliance orientation.</td></tr>
-            <tr><td>Functional Boundary</td><td>The Registry Object explains how a business is created and made operational in Sweden through recognised legal forms and formal registration pathways, rather than how it operates in every legal or commercial dimension after formation.</td></tr>
-            <tr><td>Related but Not Primary</td><td>Ongoing accounting, annual reporting, employment compliance, tax optimisation, mergers and acquisitions, litigation and sector-specific licensing may connect to formation but are not treated here as the primary object.</td></tr>
-            <tr><td>Outside Scope</td><td>Generic entrepreneurship advice, business coaching, fundraising strategies without entity formation relevance and operational consulting unrelated to legal establishment.</td></tr>
-          </table>
-        </section>
+        <p>
+          The record follows the handbook-style structure used across
+          the registry: identity, executive explanation, structured tables,
+          process sequencing, threshold questions, a separately identified
+          provider profile and a machine layer. It focuses on the
+          interaction between legal forms, Swedish authorities,
+          governance, tax onboarding and cross-border conditions.
+        </p>
 
-        <section class="registry-section" id="purpose" aria-labelledby="heading-purpose">
-          <div class="registry-section-title" id="heading-purpose">Purpose</div>
-          <p>The purpose of company formation in Sweden is to convert an intended business activity into a recognised legal and operational structure that can hold rights, enter contracts, interact with authorities and support commercial growth.</p>
-          <p>It exists to create clarity around ownership, liability, governance and registration status so that business activity can begin on a lawful, administratively workable and internationally credible basis.</p>
-        </section>
-
-        <section class="registry-section" id="primary-outcome" aria-labelledby="heading-primary-outcome">
-          <div class="registry-section-title" id="heading-primary-outcome">Primary Outcome</div>
-          <p>A validly established Swedish business structure with appropriate registration, foundational documentation, governance arrangement and initial authority onboarding aligned to its planned commercial activity in Sweden and, where relevant, across borders.</p>
-        </section>
-
-        <section class="registry-section" id="request-contexts" aria-labelledby="heading-request-contexts">
-          <div class="registry-section-title" id="heading-request-contexts">Request Contexts</div>
-          <p>Request contexts show the situations in which company formation work is usually activated. They help readers understand who typically needs the function and what business events trigger establishment or restructuring decisions.</p>
-          <table class="registry-table">
-            <tr><td>Identity Pattern</td><td>Startup founder launching a new business, foreign company entering Sweden, investor-backed venture needing a clean entity, consulting business seeking limited liability, group company establishing a subsidiary or branch.</td></tr>
-            <tr><td>Business Event</td><td>Market entry, launch of commercial operations, investment preparation, local hiring plans, new shareholder structure, restructuring of an existing business or need for a Swedish invoicing and contracting platform.</td></tr>
-            <tr><td>Typical User</td><td>Entrepreneurs, foreign owners, in-house legal teams, accountants, corporate service providers, investors and group finance teams.</td></tr>
-            <tr><td>Typical Scenario</td><td>A founder needs a Swedish private limited company for a scalable business, or an overseas company must decide whether Swedish activity should be carried out through a subsidiary, branch or other form.</td></tr>
-          </table>
-        </section>
-
-        <section class="registry-section" id="typical-users" aria-labelledby="heading-typical-users">
-          <div class="registry-section-title" id="heading-typical-users">Typical Users</div>
-          <table class="registry-table">
-            <tr><td>Entrepreneur / Business Owner</td><td>Needs a legally separate structure for trading, contracting, ownership clarity and liability management when starting a Swedish business.</td></tr>
-            <tr><td>Foreign Parent Company</td><td>Requires Swedish market access through an appropriate establishment model with administrative and governance clarity, while managing cross-border tax and reporting expectations.</td></tr>
-            <tr><td>Investor-Backed Startup</td><td>Needs a clean share structure, governance setup and registration base suitable for investment rounds, hiring and growth.</td></tr>
-            <tr><td>Professional Advisor</td><td>Supports coordination of formation documents, authority filings and early compliance requirements for Swedish and foreign founders.</td></tr>
-            <tr><td>Holding / Group Structure Planner</td><td>Assesses whether Sweden should be used for a local operating company, regional hub or controlled subsidiary within a wider group.</td></tr>
-          </table>
-        </section>
-
-        <section class="registry-section" id="typical-scenarios" aria-labelledby="heading-typical-scenarios">
-          <div class="registry-section-title" id="heading-typical-scenarios">Typical Scenarios</div>
-          <table class="registry-table">
-            <tr><td>First-Time Incorporation</td><td>A founder wants to create a Swedish company for product sales, consultancy, software, e-commerce or service operations, and must choose between limited company and simpler forms.</td></tr>
-            <tr><td>Foreign Market Entry</td><td>An overseas business wants a Swedish foothold and must compare subsidiary and branch alternatives, including registration with Bolagsverket and tax consequences.</td></tr>
-            <tr><td>Investment Preparation</td><td>A growth-stage business needs a formal corporate structure that can support financing rounds and shareholder management in Sweden.</td></tr>
-            <tr><td>Operational Conversion</td><td>A sole trader or informal activity needs to be transferred into a more structured company form to better manage risk, growth and governance.</td></tr>
-            <tr><td>Group Expansion</td><td>An international group establishes a Swedish entity to employ staff, sign customer contracts or hold local operations as part of a Nordic or EU strategy.</td></tr>
-          </table>
-        </section>
-
-        <section class="registry-section" id="country-characteristics" aria-labelledby="heading-country-characteristics">
-          <div class="registry-section-title" id="heading-country-characteristics">Country Characteristics</div>
-          <p>Country characteristics explain the jurisdiction-specific features that shape how company formation operates in Sweden. Swedish company formation is influenced not only by company legislation, but also by administrative order, digital public services and commercial expectations around documentation.</p>
-          <table class="registry-table">
-            <tr><td>Operational Culture</td><td>Swedish company formation is documentation-based, registry-centred and supported by digital services that connect several authorities through platforms such as verksamt.se.</td></tr>
-            <tr><td>Legal Framework Orientation</td><td>Entity setup is shaped by Swedish company and registration rules, accounting obligations, tax administration requirements and, where relevant, beneficial ownership transparency.</td></tr>
-            <tr><td>Commercial Context</td><td>Sweden supports domestic entrepreneurship and international business activity, making formation important for both local founders and cross-border groups using Sweden as a market or regional base.</td></tr>
-            <tr><td>Language Expectation</td><td>Swedish is important in domestic administration, while English is frequently used in international business planning, documentation support and advisory work.</td></tr>
-          </table>
-        </section>
-
-        <section class="registry-section" id="key-authorities" aria-labelledby="heading-key-authorities">
-          <div class="registry-section-title" id="heading-key-authorities">Key Authorities</div>
-          <p>Key authorities identify the institutions that shape, administer or influence company formation in Sweden. Formation typically involves coordination between company registration, tax onboarding and information services from several public bodies.</p>
-          <table class="registry-table">
-            <tr><td>Official Name</td><td>Bolagsverket</td></tr>
-            <tr><td>Official English Name</td><td>Swedish Companies Registration Office</td></tr>
-            <tr><td>Primary Role</td><td>Core Swedish public authority for company registration, formal corporate records and certain registry-related filing functions.</td></tr>
-            <tr><td>Responsibilities</td><td>Handles company registration matters, maintains corporate information and supports the formal establishment record for many Swedish legal entities.</td></tr>
-            <tr><td>Typical Interaction</td><td>Businesses interact with Bolagsverket when registering a company, recording basic corporate details, updating formal data or reviewing the registration framework.</td></tr>
-            <tr><td>Official Website</td><td><a href="https://bolagsverket.se/en" target="_blank" rel="noopener noreferrer">bolagsverket.se/en</a></td></tr>
-            <tr><td>Cross-Border Relevance</td><td>Important for foreign founders and group structures because Swedish company registration usually starts with formal registry recognition at Bolagsverket.</td></tr>
-
-            <tr><td>Official Name</td><td>Skatteverket</td></tr>
-            <tr><td>Official English Name</td><td>Swedish Tax Agency</td></tr>
-            <tr><td>Primary Role</td><td>Public authority responsible for tax registration, tax identity and operational onboarding after or alongside company formation.</td></tr>
-            <tr><td>Responsibilities</td><td>Handles registrations for F-tax, VAT and employer obligations, and manages tax-related administration that affects whether the entity can invoice, employ or conduct taxable activity.</td></tr>
-            <tr><td>Typical Interaction</td><td>Businesses interact with Skatteverket when registering for tax purposes, employer status or VAT, including foreign companies with tax liability in Sweden.</td></tr>
-            <tr><td>Official Website</td><td><a href="https://www.skatteverket.se/servicelankar/otherlanguages/englishengelska.4.12815e4f14a62bc048f4edc.html" target="_blank" rel="noopener noreferrer">skatteverket.se (English)</a></td></tr>
-            <tr><td>Cross-Border Relevance</td><td>Highly relevant for foreign-owned or cross-border businesses that need F-tax, VAT or employer registration linked to their Swedish activity.</td></tr>
-
-            <tr><td>Official Name</td><td>Verksamt.se (joint authority platform)</td></tr>
-            <tr><td>Official English Name</td><td>Verksamt.se &mdash; Authorities' guide for starting and running a business</td></tr>
-            <tr><td>Primary Role</td><td>Digital interface that gathers information and services from several Swedish authorities for starting and running a business.</td></tr>
-            <tr><td>Responsibilities</td><td>Provides coordinated guidance and e-services for choosing business type, registering companies and handling practical steps around Swedish entrepreneurship.</td></tr>
-            <tr><td>Typical Interaction</td><td>Businesses use verksamt.se to access information, initiate registrations and follow guided steps when starting or registering a business in Sweden.</td></tr>
-            <tr><td>Official Website</td><td><a href="https://verksamt.se/en" target="_blank" rel="noopener noreferrer">verksamt.se/en</a></td></tr>
-            <tr><td>Cross-Border Relevance</td><td>Useful for foreign founders because it provides English-language information and consolidated access to Swedish authority services.</td></tr>
-          </table>
-        </section>
-
-        <section class="registry-section" id="applicable-legislation" aria-labelledby="heading-applicable-legislation">
-          <div class="registry-section-title" id="heading-applicable-legislation">Applicable Legislation</div>
-          <p>Applicable legislation provides the formal framework within which company formation operates in Sweden. The exact rules that matter depend on the chosen legal form, but the environment is shaped by company law, registration rules, accounting obligations and tax legislation.</p>
-          <table class="registry-table">
-            <tr><td>Official Title</td><td>Swedish Companies Act (Aktiebolagslag)</td></tr>
-            <tr><td>Year</td><td>Current consolidated law applies; readers should verify the latest version through official legal sources.</td></tr>
-            <tr><td>Purpose</td><td>Provides the legal basis for establishment, governance and operation of Swedish limited companies, including capital rules, board responsibilities and shareholder structure.</td></tr>
-            <tr><td>Typical Application</td><td>Relevant when founders choose a Swedish private limited company (aktiebolag) and need to understand incorporation and operating requirements.</td></tr>
-            <tr><td>Related Legislation</td><td>Accounting rules, tax legislation and beneficial ownership transparency requirements affecting Swedish companies.</td></tr>
-            <tr><td>Official Source</td><td>Official Swedish legal databases and government publications.</td></tr>
-            <tr><td>Current Status</td><td>In force, subject to amendment; professional users should check current law when planning formation.</td></tr>
-          </table>
-        </section>
-
-        <section class="registry-section" id="process-flow" aria-labelledby="heading-process-flow">
-          <div class="registry-section-title" id="heading-process-flow">Process Flow</div>
-          <p>Process flow explains the typical sequence through which company formation occurs in Sweden. Practical details vary by legal form and founder profile, but the pattern usually moves from structure selection and documentation to registration, tax onboarding and operational readiness.</p>
-          <table class="registry-table">
-            <tr><td>Step 1 &mdash; Structure and Intent</td><td>Define the intended business model, ownership structure and operating footprint in Sweden, including whether the activity should be carried out through an AB, sole trader route, partnership or branch.</td></tr>
-            <tr><td>Step 2 &mdash; Legal Form Selection</td><td>Compare available forms in light of liability, capital, governance preferences, administrative expectations and cross-border plans.</td></tr>
-            <tr><td>Step 3 &mdash; Document Preparation</td><td>Prepare constitutional and founder documentation, including name, registered details, governance arrangements and internal decisions required for the chosen structure.</td></tr>
-            <tr><td>Step 4 &mdash; Company Registration</td><td>Submit registration materials to Bolagsverket or the relevant registration route, often supported by verksamt.se e-services, and await formal registration or acknowledgement.</td></tr>
-            <tr><td>Step 5 &mdash; Tax Onboarding</td><td>Register with Skatteverket for F-tax, VAT and employer status where applicable, including foreign companies with tax liability in Sweden.</td></tr>
-            <tr><td>Step 6 &mdash; Banking and Administration</td><td>Arrange banking, book-keeping, internal governance records, signing authority controls and any sector-specific registrations needed before trade.</td></tr>
-            <tr><td>Step 7 &mdash; Operational Launch</td><td>Begin active operations once the entity is properly registered, tax-onboarded and administratively ready for local and cross-border counterparties.</td></tr>
-          </table>
-        </section>
-
-        <section class="registry-section" id="decision-tree" aria-labelledby="heading-decision-tree">
-          <div class="registry-section-title" id="heading-decision-tree">Decision Tree</div>
-          <p>The decision tree simplifies threshold questions that commonly determine the correct company formation route. It is presented as a logical workflow so that the reader can follow the sequence as an operational progression rather than as disconnected labels.</p>
-          <table class="registry-table">
-            <tr><td>Main Threshold Question</td><td>Is the business intended to operate through a separate legal entity in Sweden, or through an existing foreign enterprise structure with local registration only?</td></tr>
-            <tr><td>If Separate Entity Needed</td><td>A Swedish limited company or another local legal form may be the relevant route to assess first.</td></tr>
-            <tr><td>If Existing Foreign Company Will Operate Locally</td><td>A branch registration or other non-subsidiary establishment model may need to be evaluated, including tax liability and F-tax registration.</td></tr>
-            <tr><td>If Liability Limitation and Investment Readiness Matter</td><td>A private limited company often becomes the central structure to consider first because it offers separate personality and limited liability.</td></tr>
-            <tr><td>If Activity Is Small-Scale and Founder-Centred</td><td>A sole trader route or simpler structure may be considered, with attention to personal risk and long-term growth plans.</td></tr>
-            <tr><td>If International Group Controls the Business</td><td>Subsidiary vs branch, governance design and tax coordination become core questions, often requiring professional advice.</td></tr>
-          </table>
-        </section>
-
-        <section class="registry-section" id="timeline" aria-labelledby="heading-timeline">
-          <div class="registry-section-title" id="heading-timeline">Timeline</div>
-          <p>The timeline section provides a practical sense of how company formation develops from initial planning to operational readiness. In Sweden, delays often arise from documentation gaps, cross-border complexity or banking arrangements, not just from the formal concept of registration.</p>
-          <table class="registry-table">
-            <tr><td>Planning</td><td>Founders identify the business concept, market and legal form, often with guidance from authority information and professional advisors.</td></tr>
-            <tr><td>Registration Preparation</td><td>Documents are drafted, identity and ownership details collected and internal decisions recorded.</td></tr>
-            <tr><td>Company Registration Window</td><td>Runs from submission of materials to Bolagsverket or other routes to formal registration, with timing influenced by quality of documentation and workload.</td></tr>
-            <tr><td>Tax Registration Phase</td><td>F-tax, VAT and employer registrations are processed by Skatteverket, with timing affected by risk assessment and completeness of applications.</td></tr>
-            <tr><td>Bank and Administration Setup</td><td>Bank accounts, accounting routines and governance records are arranged; KYC and cross-border elements may extend this phase.</td></tr>
-            <tr><td>Operational Start</td><td>Regular invoicing, hiring and contracting begin once registration, tax status and banking are in place.</td></tr>
-            <tr><td>Practical Note</td><td>Foreign ownership, non-standard governance or missing documentation can materially lengthen the real launch timeline beyond minimum estimates.</td></tr>
-          </table>
-        </section>
-
-        <section class="registry-section" id="required-documents" aria-labelledby="heading-required-documents">
-          <div class="registry-section-title" id="heading-required-documents">Required Documents</div>
-          <p>Required documents vary by legal form and founder profile, but company formation in Sweden usually depends on reliable identity, structure and governance documentation, together with tax registration materials and, for foreign entities, proof of existence abroad.</p>
-          <table class="registry-table">
-            <tr><td>Document</td><td>Founder and Ownership Information</td></tr>
-            <tr><td>Purpose</td><td>Identifies who establishes or owns the business and how the ownership position is structured.</td></tr>
-            <tr><td>Typical Situation</td><td>Used for company registration and tax onboarding, including control assessment for foreign-owned entities.</td></tr>
-
-            <tr><td>Document</td><td>Constitutional Documents</td></tr>
-            <tr><td>Purpose</td><td>Define formal setup such as name, internal rules, capital structure and governance framework for companies.</td></tr>
-            <tr><td>Typical Situation</td><td>Required when establishing Swedish limited companies and other formal structures at Bolagsverket.</td></tr>
-
-            <tr><td>Document</td><td>Board / Management and Signatory Details</td></tr>
-            <tr><td>Purpose</td><td>Show who will manage, represent or sign for the company and under what internal arrangements.</td></tr>
-            <tr><td>Typical Situation</td><td>Needed in registration materials, bank onboarding and authority interaction planning.</td></tr>
-
-            <tr><td>Document</td><td>Registered Address and Contact Information</td></tr>
-            <tr><td>Purpose</td><td>Supports the formal administrative identity of the entity in Sweden.</td></tr>
-            <tr><td>Typical Situation</td><td>Required for corporate registration and often for tax and banking steps.</td></tr>
-
-            <tr><td>Document</td><td>Tax Registration Information</td></tr>
-            <tr><td>Purpose</td><td>Supports F-tax, VAT and employer registration as part of becoming operational.</td></tr>
-            <tr><td>Typical Situation</td><td>Used when registering Swedish or foreign-controlled entities for tax purposes with Skatteverket.</td></tr>
-
-            <tr><td>Document</td><td>Foreign Corporate Documents</td></tr>
-            <tr><td>Purpose</td><td>Evidence existence and status of the foreign company where a branch or subsidiary is involved.</td></tr>
-            <tr><td>Typical Situation</td><td>Required when a non-Swedish business registers for tax liability or local presence in Sweden.</td></tr>
-          </table>
-        </section>
-
-        <section class="registry-section" id="cross-border" aria-labelledby="heading-cross-border">
-          <div class="registry-section-title" id="heading-cross-border">Cross-Border Relevance</div>
-          <p>Cross-border relevance is a defining feature of company formation in Sweden because many structures involve foreign shareholders, non-Swedish directors, international customers or group relationships outside the jurisdiction. Formation decisions must therefore take account of tax residence logic, permanent establishment, documentation quality and cross-border expectations.</p>
-          <table class="registry-table">
-            <tr><td>Recognition</td><td>Swedish entities are frequently used in international trade, technology, consulting and group structures, making cross-border credibility and documentation important from the outset.</td></tr>
-            <tr><td>Foreign Companies</td><td>Foreign companies with tax liability in Sweden can register through dedicated e-services, but must consider whether a branch or subsidiary best fits their operational and tax needs.</td></tr>
-            <tr><td>Language Considerations</td><td>English is available for many information resources, but domestic filings and certain administration may still require Swedish-oriented handling and translation.</td></tr>
-            <tr><td>International Rules</td><td>EU market integration, tax coordination and permanent establishment principles may influence whether and how foreign business forms a Swedish entity or branch.</td></tr>
-            <tr><td>Practical Considerations</td><td>Banking, proof of ownership, KYC and source documents are often more sensitive where foreign participants are involved, and may require more extensive documentation than domestic formations.</td></tr>
-            <tr><td>Typical Risks</td><td>Choosing the wrong structure, underestimating tax onboarding, relying on incomplete foreign documents or assuming registration alone resolves cross-border legal and tax questions.</td></tr>
-          </table>
-        </section>
-
-        <section class="registry-section" id="operating-constraints" aria-labelledby="heading-operating-constraints">
-          <div class="registry-section-title" id="heading-operating-constraints">Operating Constraints &amp; Risks</div>
-          <p>Operating constraints identify limits, risks and recurring friction points that affect company formation execution in practice. Many of the most important risks arise when formation is treated as a single filing event rather than a coordinated registration, governance and operational setup exercise.</p>
-          <table class="registry-table">
-            <tr><td>Structure Selection Risk</td><td>The chosen entity type may not fit liability, investment, tax or commercial realities, leading to costly restructuring later.</td></tr>
-            <tr><td>Documentation Risk</td><td>Incomplete or inconsistent founder, ownership and governance documentation can delay registration or later onboarding.</td></tr>
-            <tr><td>Operational Readiness Risk</td><td>A registered company may still be unable to trade effectively if tax, banking and accounting arrangements are not in place.</td></tr>
-            <tr><td>Cross-Border Control Risk</td><td>Foreign ownership or management may increase scrutiny around identity, representation and practical administration, affecting timing and confidence.</td></tr>
-            <tr><td>Expectation Gap</td><td>International founders may assume Swedish formation is purely digital and immediate when the real process still depends on correct sequencing and complete evidence.</td></tr>
-          </table>
-        </section>
-
-        <section class="registry-section" id="costs-fees" aria-labelledby="heading-costs-fees">
-          <div class="registry-section-title" id="heading-costs-fees">Costs &amp; Fees</div>
-          <p>The costs section explains how resource demands typically arise in company formation matters. The purpose is not to advertise pricing, but to identify main cost drivers that influence budgets and planning.</p>
-          <table class="registry-table">
-            <tr><td>Authority Fees</td><td>Bolagsverket and other routes may charge fees for registration or filing actions, with amounts depending on legal form and submission method.</td></tr>
-            <tr><td>Professional Support</td><td>Legal and accounting advisory work for form selection, documentation preparation, cross-border coordination and tax onboarding can be a significant cost factor.</td></tr>
-            <tr><td>Administrative Setup</td><td>Banking, accounting systems, registered address support, translations and certified document handling may all contribute to practical setup costs.</td></tr>
-            <tr><td>Capital Considerations</td><td>Some structures, particularly limited companies, involve capital requirements or proof expectations that must be factored into overall formation budgets.</td></tr>
-          </table>
-        </section>
-
-        <section class="registry-section" id="typical-questions" aria-labelledby="heading-typical-questions">
-          <div class="registry-section-title" id="heading-typical-questions">FAQ</div>
-          <p>The FAQ section collects recurring threshold questions in a concise handbook format relevant to company formation in Sweden.</p>
-          <table class="registry-table">
-            <tr><td>Can a foreign founder establish a company in Sweden?</td><td>Yes. Foreign founders can establish Swedish business structures, but the practical route depends on legal form, ownership pattern, tax liability and documentation for Swedish authorities.</td></tr>
-            <tr><td>Is a private limited company the main form for growth-oriented business activity?</td><td>In many cases, yes. Swedish limited companies are commonly used where separate legal identity and limited liability are important for investment and expansion.</td></tr>
-            <tr><td>Does formation end when the company is registered with Bolagsverket?</td><td>No. Registration is central, but operational readiness also requires tax onboarding, banking setup, accounting preparation and governance organisation.</td></tr>
-            <tr><td>Is verksamt.se relevant in practical planning?</td><td>Yes. Verksamt.se provides coordinated information and services from several authorities, making it a practical starting point for many Swedish formation projects.</td></tr>
-            <tr><td>Should foreign groups compare a subsidiary with a branch?</td><td>Yes. That comparison is often one of the most important early formation decisions for international businesses entering Sweden, particularly in relation to tax and permanent establishment.</td></tr>
-          </table>
-        </section>
-
-        <section class="registry-section" id="related-areas" aria-labelledby="heading-related-areas">
-          <div class="registry-section-title" id="heading-related-areas">Related Professional Areas</div>
-          <p>Related professional areas show where company formation naturally interacts with neighbouring disciplines that may require additional specialist input.</p>
-          <table class="registry-table">
-            <tr><td>Corporate Governance</td><td>Relevant because the entity must be organised, represented and controlled after formation, including board work and shareholder interaction.</td></tr>
-            <tr><td>Accounting &amp; Bookkeeping</td><td>Relevant because financial administration begins early in the life of a newly formed business and supports reporting and tax compliance.</td></tr>
-            <tr><td>Tax Registration &amp; Compliance</td><td>Relevant because operational trading depends on correct F-tax, VAT and employer registration and subsequent reporting.</td></tr>
-            <tr><td>Employment Setup</td><td>Relevant where the business plans to hire staff shortly after establishment and must manage payroll, contracts and employer obligations.</td></tr>
-            <tr><td>Commercial Contracts</td><td>Relevant because counterparties often require valid corporate vehicles and authorised signatories before entering into agreements.</td></tr>
-          </table>
-        </section>
-
-        <section class="registry-section" id="practical-guidance" aria-labelledby="heading-practical-guidance">
-          <div class="registry-section-title" id="heading-practical-guidance">Practical Guidance</div>
-          <p>Practical guidance translates the registry object into decision-making logic. The central question is rarely only how to register a company, but how to choose and implement a Swedish structure that matches the real business model, ownership pattern and operational sequence.</p>
-          <table class="registry-table">
-            <tr><td>Before Formation</td><td>Clarify who will own the business, who will manage it, where activity will occur and whether a local entity or foreign branch is commercially and fiscally sensible.</td></tr>
-            <tr><td>During Formation</td><td>Ensure constitutional documents, founder information, representation details and registration steps are internally consistent and complete.</td></tr>
-            <tr><td>After Registration</td><td>Confirm tax onboarding, invoicing readiness, governance records, accounting setup and authority correspondence routines to avoid operational bottlenecks.</td></tr>
-            <tr><td>When Professional Support Is Useful</td><td>Support is often valuable for foreign-owned structures, multi-shareholder setups, group entry planning, governance design or uncertainty about the correct legal form.</td></tr>
-          </table>
-        </section>
-
-        <section class="registry-section" id="registered-participants" aria-labelledby="heading-registered-participants">
-          <div class="registry-section-title" id="heading-registered-participants">Registered Expert</div>
-          <p>The Registered Expert section records the status of the registry position associated with this jurisdictional object. It remains separate from the editorial content.</p>
-          <table class="registry-table">
-            <tr><td>Registry Position ID</td><td>CFR-SE-CF-001-A-EXP</td></tr>
-            <tr><td>Registry Position</td><td>Registered Expert &mdash; Company Formation Sweden</td></tr>
-            <tr><td>Swedish Expert</td><td>ReveA</td></tr>
-            <tr><td>Website</td><td><a href="https://revea.se/" target="_blank" rel="noopener">revea.se</a></td></tr>
-            <tr><td>Email</td><td><a href="mailto:info@revea.se">info@revea.se</a></td></tr>
-            <tr><td>Coverage</td><td>Swedish company formation with domestic, EU and cross-border business relevance.</td></tr>
-            <tr><td>Registry Reference</td><td>CFR-SE-CF-001-A Registered Expert Position</td></tr>
-          </table>
-        </section>
-
-        <section class="registry-section" id="machine-layer" aria-labelledby="heading-machine-layer">
-          <div class="registry-section-title" id="heading-machine-layer">Machine Layer</div>
-          <p>This section contains machine-oriented registry fields retained for indexing, retrieval, system organisation and future rendering control. It may be visually minimised while remaining fully available in the HTML source.</p>
-          <table class="registry-table">
-            <tr><td>Object DNA</td><td>company-formation sweden bolagsverket skatteverket verksamt aktiebolag limited company sole trader branch subsidiary vat f-tax employer registration cross-border</td></tr>
-            <tr><td>AI Retrieval Summary</td><td>Neutral registry object describing how company formation functions in Sweden, including legal forms, registration authorities, governance, tax onboarding and cross-border establishment considerations.</td></tr>
-            <tr><td>Entity Index</td><td>Sweden Company Formation Bolagsverket Swedish Companies Registration Office Skatteverket Swedish Tax Agency Verksamt Limited Company Aktiebolag Sole Trader Branch Subsidiary VAT F-tax Employer Registration</td></tr>
-            <tr><td>Machine Metadata</td><td>Registry rendering layer ../../css/registry.css &mdash; Object ID SE.CF.001 &mdash; Machine Reference CFR-SE-CF-001-A &mdash; Internal Classification Business &gt; Corporate Establishment &amp; Registration &gt; Company Formation &gt; Sweden &mdash; Checksum 0xCF8126SE</td></tr>
-            <tr><td>Internal References</td><td>Registry Object &mdash; Jurisdiction Node &mdash; Editorial Registry Record &mdash; Registered Expert Position &mdash; Machine-readable Reference Node</td></tr>
-          </table>
-        </section>
-      </article>
-    </main>
-
-    <footer class="registry-footer">
-      <div class="registry-footer-inner">
-        <div class="registry-footer-meta">
-          <span class="registry-footer-brand">Company Formation Registry</span>
-          <span>END OF RECORD</span>
-          <span>Classification...................Business &gt; Corporate Establishment &amp; Registration &gt; Company Formation &gt; Sweden</span>
-          <span>Machine Reference................CFR-SE-CF-001-A</span>
-          <span>Registry Scope...................National with EU and international coordination</span>
-          <span>Record Integrity.................VERIFIED</span>
+        <div class="registry-classification">
+          <strong>Registry Classification</strong>
+          Business &gt; Corporate Establishment &amp; Registration &gt;
+          Company Formation &gt; Sweden &gt; Domestic and Cross-Border
         </div>
-        <nav class="registry-footer-nav" aria-label="Footer navigation">
-          <a href="/privacy-policy/">Privacy Policy</a>
-          <a href="/terms-of-use/">Terms of Use</a>
-          <a href="/jurisdictions/">Jurisdictions</a>
+      </section>
+
+      <section class="registry-grid" aria-label="Registry identity">
+        <article class="registry-panel">
+          <h2 class="registry-panel-title">Core Function</h2>
+          <div class="registry-panel-content">
+            <p>
+              Establishing an appropriate Swedish business structure,
+              coordinating its registration and addressing the initial
+              legal, tax and administrative arrangements relevant
+              to the planned activity.
+            </p>
+          </div>
+        </article>
+
+        <article class="registry-panel">
+          <h2 class="registry-panel-title">Primary Interfaces</h2>
+          <div class="registry-panel-content">
+            <p>
+              Founders, shareholders, directors, Bolagsverket,
+              Skatteverket, banking institutions, accountants
+              and commercial counterparties.
+            </p>
+          </div>
+        </article>
+
+        <article class="registry-panel">
+          <h2 class="registry-panel-title">Cross-Border Note</h2>
+          <div class="registry-panel-content">
+            <p>
+              Foreign ownership, international documentation,
+              management arrangements, tax exposure and bank
+              onboarding may affect the establishment route
+              and practical launch timetable.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <section id="executive-summary" class="registry-section">
+        <h2 class="registry-section-title">Executive Summary</h2>
+
+        <p>
+          Company formation in Sweden is the structured process through
+          which a business presence is established, documented and prepared
+          to operate within the Swedish commercial system. It includes
+          selecting an appropriate legal form, completing the relevant
+          registrations, organising initial governance and identifying
+          the tax and administrative steps required by the activity.
+        </p>
+
+        <p>
+          The work often begins with a choice between a Swedish limited
+          company, sole trader activity, a partnership or a branch of
+          an existing foreign company. The choice affects liability,
+          ownership, governance and administration. A private limited
+          company, or aktiebolag, is commonly considered where separate
+          legal personality and limited liability are important.
+        </p>
+
+        <p>
+          Bolagsverket, Skatteverket and the joint authority platform
+          verksamt.se are central reference points. Company registration,
+          tax registration and operational preparation perform different
+          functions. Completing one does not automatically complete
+          the others.
+        </p>
+
+        <p>
+          Cross-border founders must also consider foreign corporate
+          documents, management and representation arrangements,
+          identification, banking requirements and the relationship
+          between Swedish activity and the wider group. A realistic
+          project plan therefore extends beyond obtaining a registration
+          certificate.
+        </p>
+      </section>
+
+      <section id="definition" class="registry-section">
+        <h2 class="registry-section-title">Object Definition</h2>
+
+        <table class="registry-table registry-table--record">
+          <caption class="sr-only">
+            Definition and classification of company formation
+          </caption>
+          <tbody>
+            <tr>
+              <th scope="row">Definition</th>
+              <td>
+                The legal and administrative function concerned with
+                establishing a Swedish business structure, including
+                legal form selection, foundational documentation,
+                registration, initial governance and relevant
+                operational onboarding.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Object</th>
+              <td>Company Formation</td>
+            </tr>
+            <tr>
+              <th scope="row">Object Type</th>
+              <td>
+                Professional Corporate Establishment and Registration Function
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Classification</th>
+              <td>
+                Corporate Setup — Commercial Registration — Governance —
+                Tax Onboarding — Domestic and Cross-Border Establishment
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Jurisdiction</th>
+              <td>
+                Sweden, with EU and international relevance where applicable.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="scope" class="registry-section">
+        <h2 class="registry-section-title">Scope</h2>
+
+        <p>
+          This object distinguishes business establishment from ongoing
+          accounting, broader corporate legal work, tax controversy,
+          employment advice and general business consultancy.
+        </p>
+
+        <table class="registry-table registry-table--record">
+          <caption class="sr-only">Scope and functional boundaries</caption>
+          <tbody>
+            <tr>
+              <th scope="row">Covered Matters</th>
+              <td>
+                Legal form selection, incorporation planning, founder
+                and shareholder information, constitutional documents,
+                board and representation arrangements, registration,
+                relevant tax onboarding and initial administrative readiness.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Functional Boundary</th>
+              <td>
+                How a business structure is established and prepared
+                for the intended activity, rather than every legal
+                and commercial obligation arising after launch.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Related but Not Primary</th>
+              <td>
+                Continuing bookkeeping, annual reporting, payroll,
+                employment compliance, financing, acquisitions,
+                tax structuring and sector-specific licensing.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Outside Scope</th>
+              <td>
+                General business coaching, fundraising strategy without
+                establishment relevance and operational consultancy
+                unrelated to registration or initial setup.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="purpose" class="registry-section">
+        <h2 class="registry-section-title">Purpose</h2>
+
+        <p>
+          The purpose is to translate an intended business activity
+          into an appropriate legal and administrative structure.
+          Depending on the selected form, that structure provides
+          the framework for ownership, representation, contracting,
+          liability and authority interaction.
+        </p>
+
+        <p>
+          The practical objective is not simply to obtain a company
+          number. It is to establish a workable foundation for the
+          actual business, with responsibilities and outstanding
+          onboarding steps clearly identified.
+        </p>
+      </section>
+
+      <section id="primary-outcome" class="registry-section">
+        <h2 class="registry-section-title">Primary Outcome</h2>
+
+        <p>
+          An appropriately established Swedish business structure,
+          supported by the relevant registration, foundational records,
+          initial governance and a documented plan for tax,
+          banking, accounting and other activity-specific requirements.
+        </p>
+      </section>
+
+      <section id="request-contexts" class="registry-section">
+        <h2 class="registry-section-title">Request Contexts</h2>
+
+        <table class="registry-table registry-table--record">
+          <caption class="sr-only">Common formation triggers</caption>
+          <tbody>
+            <tr>
+              <th scope="row">Founder Profile</th>
+              <td>
+                First-time entrepreneur, foreign business owner,
+                investor-backed venture, professional services business
+                or international group establishing Swedish activity.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Business Event</th>
+              <td>
+                Market entry, commercial launch, local hiring,
+                investment preparation, a new ownership arrangement
+                or a need for a Swedish operating structure.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Typical User</th>
+              <td>
+                Founders, foreign parent companies, in-house legal
+                and finance teams, accountants, corporate service
+                providers and investors.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Threshold Question</th>
+              <td>
+                Which structure matches the intended activity,
+                ownership, management, liability and cross-border position?
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="typical-users" class="registry-section">
+        <h2 class="registry-section-title">Typical Users</h2>
+
+        <table class="registry-table registry-table--record">
+          <caption class="sr-only">Users of formation support</caption>
+          <tbody>
+            <tr>
+              <th scope="row">Entrepreneur or Business Owner</th>
+              <td>
+                Needs to establish an appropriate structure for
+                trading, contracting, ownership and risk management.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Foreign Parent Company</th>
+              <td>
+                Needs to compare Swedish establishment options
+                and coordinate registration with wider group,
+                governance and tax considerations.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Investor-Backed Startup</th>
+              <td>
+                Needs an intelligible ownership and governance
+                foundation capable of supporting investment
+                and subsequent growth.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Professional Adviser</th>
+              <td>
+                Coordinates documents, authority interaction
+                and initial administration for founders
+                or corporate clients.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Group Finance or Legal Team</th>
+              <td>
+                Assesses a Swedish operating company or branch
+                within an existing international structure.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="typical-scenarios" class="registry-section">
+        <h2 class="registry-section-title">Typical Scenarios</h2>
+
+        <table class="registry-table registry-table--record">
+          <caption class="sr-only">Practical establishment scenarios</caption>
+          <tbody>
+            <tr>
+              <th scope="row">First-Time Incorporation</th>
+              <td>
+                A founder starts a product, consultancy, software,
+                e-commerce or services business and needs
+                to select the appropriate structure.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Foreign Market Entry</th>
+              <td>
+                An overseas business compares a Swedish subsidiary
+                with a branch or another way of conducting
+                its intended activity.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Investment Preparation</th>
+              <td>
+                A business needs foundational corporate records
+                and governance arrangements aligned with
+                a proposed ownership or investment structure.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Business Conversion</th>
+              <td>
+                Existing activity is being moved into another
+                structure, requiring separate consideration
+                of contracts, assets, tax and liabilities.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Group Expansion</th>
+              <td>
+                An international group needs a Swedish presence
+                to support local contracts, staff or operations.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="country-characteristics" class="registry-section">
+        <h2 class="registry-section-title">Country Characteristics</h2>
+
+        <p>
+          Swedish establishment involves formal registration and
+          documentation, supported by digital authority services.
+          Access to a digital interface does not eliminate the
+          need for appropriate evidence, authorised representatives
+          or activity-specific analysis.
+        </p>
+
+        <table class="registry-table registry-table--record">
+          <caption class="sr-only">Swedish establishment characteristics</caption>
+          <tbody>
+            <tr>
+              <th scope="row">Administrative Structure</th>
+              <td>
+                Company registration, tax administration and practical
+                business setup involve distinct responsibilities
+                and potentially different processes.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Legal Framework</th>
+              <td>
+                The selected business form determines the applicable
+                establishment and governance rules, alongside
+                relevant accounting, tax and transparency requirements.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Commercial Preparation</th>
+              <td>
+                Contracts, representation, banking and financial
+                administration must be considered alongside
+                formal registration.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Language and Documents</th>
+              <td>
+                English-language guidance can assist international
+                users, but filing, certification and translation
+                requirements must be checked for the actual process.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="authorities" class="registry-section">
+        <h2 class="registry-section-title">Key Authorities</h2>
+
+        <table class="registry-table registry-table--record">
+          <caption class="sr-only">
+            Registration, tax and information interfaces
+          </caption>
+          <tbody>
+            <tr>
+              <th scope="row">Bolagsverket</th>
+              <td>
+                <strong>Swedish Companies Registration Office.</strong>
+                The principal company-registration interface for
+                relevant Swedish business structures and formal
+                corporate records. The applicable filing depends
+                on the legal form and establishment route.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Skatteverket</th>
+              <td>
+                <strong>Swedish Tax Agency.</strong>
+                Relevant to F-tax approval and VAT and employer
+                registration where applicable, as well as
+                other tax administration connected to the activity.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Verksamt.se</th>
+              <td>
+                <strong>Joint authority information and service platform.</strong>
+                Provides guidance and access to services for starting
+                and running a business. It is a coordinated interface,
+                not a substitute for the underlying authorities'
+                separate responsibilities.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Other Relevant Interfaces</th>
+              <td>
+                Banks, accountants and sector-specific authorities
+                may become relevant to operational setup.
+                Banking decisions and regulatory permissions
+                are separate from company registration.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="legislation" class="registry-section">
+        <h2 class="registry-section-title">Applicable Legislation</h2>
+
+        <p>
+          The applicable framework depends on the selected legal form
+          and activity. The following identifies rule areas rather
+          than an exhaustive current-law checklist.
+        </p>
+
+        <table class="registry-table registry-table--record">
+          <caption class="sr-only">Principal establishment rule areas</caption>
+          <tbody>
+            <tr>
+              <th scope="row">Company Legislation</th>
+              <td>
+                The Swedish Companies Act is central when establishing
+                an aktiebolag, including its foundational documents,
+                capital, management and representation arrangements.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Other Business Forms</th>
+              <td>
+                Sole trader activity, partnerships and branches
+                require the rules and registrations relevant
+                to their respective structures.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Accounting and Reporting</th>
+              <td>
+                Identify the accounting, recordkeeping and reporting
+                obligations applicable to the chosen form and activity.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Tax Administration</th>
+              <td>
+                Assess the tax position and relevant registrations
+                rather than assuming all tax obligations follow
+                automatically from company registration.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Ownership and Transparency</th>
+              <td>
+                Determine the applicable ownership, control and
+                beneficial ownership reporting requirements.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Activity-Specific Requirements</th>
+              <td>
+                Some activities require additional permissions,
+                registrations or professional advice separate
+                from the formation itself.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="registry-note">
+          <p>
+            <strong>Legal currency.</strong>
+            Check current consolidated legislation, amendments,
+            authority requirements and any applicable exceptions
+            before proceeding. This presentation revision does not
+            certify a complete current-law review.
+          </p>
+        </div>
+      </section>
+
+      <section id="process-flow" class="registry-section">
+        <h2 class="registry-section-title">Process Flow</h2>
+
+        <p>
+          The practical sequence varies by structure and founder profile.
+          Some workstreams may proceed in parallel, while others
+          depend on prior documents or third-party decisions.
+        </p>
+
+        <table class="registry-table registry-table--record">
+          <caption class="sr-only">Typical establishment workflow</caption>
+          <tbody>
+            <tr>
+              <th scope="row">1. Define the Activity</th>
+              <td>
+                Establish what the business will do, where activity
+                takes place, who owns it and who will manage it.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">2. Select the Structure</th>
+              <td>
+                Compare appropriate forms against liability,
+                governance, capital, ownership and cross-border needs.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">3. Prepare the Documents</th>
+              <td>
+                Assemble identity, ownership and management information
+                and prepare the required foundational records.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">4. Complete Registration</th>
+              <td>
+                Follow the relevant registration process and respond
+                to requests for clarification or supplementary material.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">5. Address Tax Onboarding</th>
+              <td>
+                Determine and apply for the tax approvals and
+                registrations relevant to the actual activity.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">6. Organise Administration</th>
+              <td>
+                Coordinate banking, accounting, authorised access,
+                corporate records and other required arrangements.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">7. Confirm Launch Readiness</th>
+              <td>
+                Identify what is complete, what remains outstanding
+                and whether any additional permission or
+                professional input is needed for the intended launch.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="decision-tree" class="registry-section">
+        <h2 class="registry-section-title">Decision Tree</h2>
+
+        <table class="registry-table registry-table--record">
+          <caption class="sr-only">Initial structure-selection questions</caption>
+          <tbody>
+            <tr>
+              <th scope="row">Separate Swedish Entity?</th>
+              <td>
+                Determine whether a new Swedish legal entity is
+                needed or whether the existing foreign business
+                will conduct the activity.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Limited Liability and Investment?</th>
+              <td>
+                A private limited company is a form to consider
+                where separate legal personality, ownership
+                flexibility and limited liability are important.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Existing Foreign Enterprise?</th>
+              <td>
+                Compare subsidiary and branch implications,
+                including governance, liability, tax and administration.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Founder-Centred Activity?</th>
+              <td>
+                Consider whether a simpler business form fits,
+                taking personal liability and future plans
+                into account.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Complex Ownership or Management?</th>
+              <td>
+                Obtain appropriate advice where shareholder
+                arrangements, foreign management, investment
+                or group relationships require more than
+                standard registration support.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Regulated Activity?</th>
+              <td>
+                Identify any permission or registration that
+                must be addressed separately from company formation.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="timeline" class="registry-section">
+        <h2 class="registry-section-title">Timeline</h2>
+
+        <p>
+          A useful timetable separates preparation, formal registration,
+          tax administration and operational onboarding.
+          No single completion estimate fits every founder
+          or establishment route.
+        </p>
+
+        <table class="registry-table registry-table--record">
+          <caption class="sr-only">Timing dependencies</caption>
+          <tbody>
+            <tr>
+              <th scope="row">Planning</th>
+              <td>
+                Depends on agreement about the structure,
+                activity, ownership, management and responsibilities.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Document Preparation</th>
+              <td>
+                Depends on obtaining complete and consistent
+                information, including foreign documents where relevant.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Registration</th>
+              <td>
+                Depends on the route, application quality,
+                requests for further information and authority processing.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Tax Onboarding</th>
+              <td>
+                Follows the applicable tax process and may require
+                information about the business and its intended activity.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Banking and Administration</th>
+              <td>
+                May involve separate identification, ownership,
+                source-of-funds and business-model enquiries.
+                Bank approval should not be assumed.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Practical Launch</th>
+              <td>
+                Depends on the steps actually required for the
+                business, not only the date of company registration.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="documents" class="registry-section">
+        <h2 class="registry-section-title">Required Documents</h2>
+
+        <table class="registry-table registry-table--record">
+          <caption class="sr-only">Common establishment documents</caption>
+          <tbody>
+            <tr>
+              <th scope="row">Founder and Ownership Information</th>
+              <td>
+                Identity and ownership details, relevant control
+                information and the proposed ownership structure.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Foundational Documents</th>
+              <td>
+                Constitutional and founder documentation required
+                for the chosen form, including relevant internal decisions.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Management and Representation</th>
+              <td>
+                Details of directors, management, authorised
+                representatives and proposed signing arrangements.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Address and Contact Information</th>
+              <td>
+                Information needed for the structure's formal
+                identity and reliable receipt of correspondence.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Tax Registration Information</th>
+              <td>
+                Business descriptions and other information
+                relevant to the required tax applications.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Foreign Corporate Records</th>
+              <td>
+                Documents supporting the existence, ownership
+                and representation of foreign participants
+                where requested.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Banking and Commercial Evidence</th>
+              <td>
+                Information requested by the selected bank
+                or other onboarding parties about the owners,
+                funding, business activity and expected transactions.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="cross-border" class="registry-section">
+        <h2 class="registry-section-title">Cross-Border Relevance</h2>
+
+        <p>
+          Foreign ownership and international activity can affect
+          the choice and implementation of a Swedish establishment.
+          Registration does not resolve every tax, management,
+          employment or foreign-country question.
+        </p>
+
+        <table class="registry-table registry-table--record">
+          <caption class="sr-only">International establishment interfaces</caption>
+          <tbody>
+            <tr>
+              <th scope="row">Subsidiary or Branch</th>
+              <td>
+                Compare the structure against the existing enterprise,
+                intended activity, liability and administrative needs.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Ownership and Representation</th>
+              <td>
+                Establish who controls the business, who may
+                represent it and which supporting records are required.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Tax Position</th>
+              <td>
+                Assess relevant tax residence, permanent establishment
+                and reporting questions with appropriate advisers.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Foreign Documents</th>
+              <td>
+                Check the accepted form, age, certification
+                and translation of source documents.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Bank Onboarding</th>
+              <td>
+                Prepare for the bank's own enquiries.
+                Incorporation assistance does not itself
+                ensure account approval.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Ongoing Coordination</th>
+              <td>
+                Allocate Swedish and foreign-country responsibilities
+                for accounting, tax, payroll and group reporting.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="risks" class="registry-section">
+        <h2 class="registry-section-title">Operating Constraints &amp; Risks</h2>
+
+        <table class="registry-table registry-table--record">
+          <caption class="sr-only">Common formation risks</caption>
+          <tbody>
+            <tr>
+              <th scope="row">Structure Selection</th>
+              <td>
+                A form that does not fit liability, investment,
+                management or cross-border needs can create
+                later restructuring work.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Document Consistency</th>
+              <td>
+                Conflicting ownership, identity or representation
+                information can delay applications and onboarding.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Incomplete Operational Setup</th>
+              <td>
+                A registered structure may still need banking,
+                accounting, tax or activity-specific steps.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Unclear Responsibilities</th>
+              <td>
+                Provider, founder and adviser responsibilities
+                should be explicit, particularly where several
+                parties handle different stages.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Cross-Border Complexity</th>
+              <td>
+                Foreign documents and group arrangements may
+                require additional evidence or specialist analysis.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Unrealistic Timing</th>
+              <td>
+                Marketing language about speed should not replace
+                a project timetable that identifies authority
+                and third-party dependencies.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="costs" class="registry-section">
+        <h2 class="registry-section-title">Costs &amp; Fees</h2>
+
+        <p>
+          A formation budget should distinguish professional fees,
+          official charges, ongoing services and capital requirements.
+          They serve different purposes and should not be presented
+          as a single interchangeable cost.
+        </p>
+
+        <table class="registry-table registry-table--record">
+          <caption class="sr-only">Establishment budget components</caption>
+          <tbody>
+            <tr>
+              <th scope="row">Authority Charges</th>
+              <td>
+                Relevant registration and filing charges,
+                depending on the form, action and submission route.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Professional Support</th>
+              <td>
+                Advice, preparation, applications, coordination
+                and specialist input included in the engagement.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Administrative Setup</th>
+              <td>
+                Banking-related costs, accounting implementation,
+                address arrangements, translations or document
+                certification where needed.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Capital</th>
+              <td>
+                Identify any capital requirement and its treatment
+                separately from a provider's service fee.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Recurring Services</th>
+              <td>
+                Accounting, payroll, address or other continuing
+                administration should have separate scope,
+                pricing and termination terms.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="faq" class="registry-section">
+        <h2 class="registry-section-title">FAQ</h2>
+
+        <table class="registry-table registry-table--record">
+          <caption class="sr-only">Frequently asked questions</caption>
+          <tbody>
+            <tr>
+              <th scope="row">
+                Can a foreign founder establish a business in Sweden?
+              </th>
+              <td>
+                Yes. The appropriate route and practical requirements
+                depend on the chosen form, ownership, management,
+                intended activity and available documentation.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">
+                Is an aktiebolag always the right choice?
+              </th>
+              <td>
+                No. It is a relevant option where separate legal
+                personality and limited liability matter, but
+                selection should follow the actual circumstances.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">
+                Does company registration complete the setup?
+              </th>
+              <td>
+                Not necessarily. Tax administration, banking,
+                accounting, governance and activity-specific
+                requirements may remain.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">
+                Is verksamt.se useful for planning?
+              </th>
+              <td>
+                Yes. It provides coordinated information and
+                access to services from Swedish authorities.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">
+                Should an overseas company compare a subsidiary and branch?
+              </th>
+              <td>
+                Yes. The comparison can affect liability,
+                administration, governance and tax analysis.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">
+                Does formation assistance guarantee a bank account?
+              </th>
+              <td>
+                No guarantee should be assumed. Banks make their
+                own onboarding decisions and may require
+                additional information.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">
+                Does owning a company establish personal immigration rights?
+              </th>
+              <td>
+                Company formation should not be treated as a
+                substitute for a separate assessment of any
+                personal right to reside or work in Sweden.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="related-areas" class="registry-section">
+        <h2 class="registry-section-title">Related Professional Areas</h2>
+
+        <table class="registry-table registry-table--record">
+          <caption class="sr-only">Adjacent professional disciplines</caption>
+          <tbody>
+            <tr>
+              <th scope="row">Corporate Governance</th>
+              <td>
+                Management, representation, board responsibilities
+                and shareholder arrangements.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Accounting and Reporting</th>
+              <td>
+                Bookkeeping, financial records, annual reporting
+                and related administration.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Tax Advice and Compliance</th>
+              <td>
+                Registrations, reporting and specialist analysis
+                of domestic and international tax matters.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Employment and Payroll</th>
+              <td>
+                Employer setup, employment terms, payroll
+                and related obligations.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Commercial Contracts</th>
+              <td>
+                Agreements entered into by the new structure
+                and verification of authorised representation.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Banking and Regulated Activity</th>
+              <td>
+                Independent bank onboarding and any permissions
+                relevant to the intended business.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="practical-guidance" class="registry-section">
+        <h2 class="registry-section-title">Practical Guidance</h2>
+
+        <table class="registry-table registry-table--record">
+          <caption class="sr-only">Preparation and implementation guidance</caption>
+          <tbody>
+            <tr>
+              <th scope="row">Before Formation</th>
+              <td>
+                Clarify the activity, owners, management, countries
+                involved and reasons for selecting a Swedish structure.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">During Preparation</th>
+              <td>
+                Keep identity, ownership, representation and
+                business information consistent across documents
+                and applications.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">During Registration</th>
+              <td>
+                Track submissions, outstanding questions,
+                decisions and responsibilities for supplementary material.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">After Registration</th>
+              <td>
+                Confirm the actual status of tax, banking,
+                accounting and other required onboarding.
+                Record any remaining dependencies.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">When Specialist Input Helps</th>
+              <td>
+                Seek appropriate advice for non-standard ownership,
+                investment terms, foreign management, group
+                structures or uncertainty about legal form and tax.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!--
+        1OFFICE SWEDEN PROFILE
+
+        Twelve presentation areas:
+        1. Company identity
+        2. Services and proposed outcomes
+        3. Client problems
+        4. Best-fit enquiry contexts
+        5. Assignment boundaries
+        6. Differentiation and selection criteria
+        7. Evidence and credibility
+        8. Geography
+        9. Buying situations
+        10. Working approach and capacity
+        11. Alternative provider models
+        12. Terminology and search intent
+
+        The current provider name and URL are publisher-supplied.
+        The proposed workstreams are not verified service claims.
+      -->
+
+      <section
+        id="expert"
+        class="registry-section"
+        aria-labelledby="expert-heading"
+      >
+        <h2 id="expert-heading" class="registry-section-title">
+          Registered Expert
+        </h2>
+
+        <p class="registry-profile-name">
+          1Office Sweden
+        </p>
+
+        <p class="registry-profile-lead">
+          <strong>
+            A Swedish company number is a milestone.
+            A workable business setup is the objective.
+          </strong>
+          Choosing a structure, preparing documents, coordinating
+          applications and arranging the next administrative steps
+          are connected decisions. Founders need to know not only
+          what has been registered, but what the business can
+          actually do next.
+        </p>
+
+        <p>
+          1Office Sweden is the provider selected by the registry
+          publisher for this Swedish company-formation position.
+          This profile sets out a commercially focused basis
+          for discussing an establishment project with the company:
+          the intended activity, the proposed structure,
+          the required work and the handover into operation.
+        </p>
+
+        <div class="registry-profile-links">
+          <a
+            href="https://1office.co/sweden/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Official Sweden website
+          </a>
+          <a href="#oneoffice-client-fit">
+            Client and assignment fit
+          </a>
+          <a href="#oneoffice-contact">
+            Contact and project brief
+          </a>
+        </div>
+
+        <div class="registry-note">
+          <p>
+            <strong>Editorial scope.</strong>
+            The presentation below describes the formation mandate
+            to evaluate with 1Office Sweden. Its actual services,
+            availability, qualifications and commercial terms
+            must be confirmed directly. Inclusion is not
+            evidence of company approval, regulatory accreditation
+            or an exclusive appointment.
+          </p>
+        </div>
+
+        <nav class="registry-subnav" aria-label="1Office profile navigation">
+          <ul>
+            <li><a href="#oneoffice-identity">Identity</a></li>
+            <li><a href="#oneoffice-services">Services and Scope</a></li>
+            <li><a href="#oneoffice-problems">Business Needs</a></li>
+            <li><a href="#oneoffice-client-fit">Client Fit</a></li>
+            <li><a href="#oneoffice-differentiation">Differentiation</a></li>
+            <li><a href="#oneoffice-evidence">Evidence</a></li>
+            <li><a href="#oneoffice-geography">Geography</a></li>
+            <li><a href="#oneoffice-delivery">Delivery</a></li>
+            <li><a href="#oneoffice-contact">Contact</a></li>
+          </ul>
         </nav>
-        <p class="registry-footer-copy">&copy; <span id="current-year">2026</span> Company Formation Registry. All rights reserved.</p>
-      </div>
-    </footer>
+
+        <h3 id="oneoffice-identity" class="registry-section-title">
+          Company Identity
+        </h3>
+
+        <table class="registry-table registry-table--record">
+          <caption class="sr-only">Provider identity and registry position</caption>
+          <tbody>
+            <tr>
+              <th scope="row">Provider Name</th>
+              <td><strong>1Office Sweden</strong></td>
+            </tr>
+            <tr>
+              <th scope="row">Official Sweden Website</th>
+              <td>
+                <a
+                  href="https://1office.co/sweden/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  https://1office.co/sweden/
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Position in This Registry</th>
+              <td>
+                A publisher-selected provider record associated
+                with company formation and business establishment
+                enquiries concerning Sweden.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Registry Position</th>
+              <td>Registered Expert — Company Formation Sweden</td>
+            </tr>
+            <tr>
+              <th scope="row">Position ID</th>
+              <td>CFR-SE-CF-001-A-EXP</td>
+            </tr>
+            <tr>
+              <th scope="row">Registry Reference</th>
+              <td>CFR-SE-CF-001-A</td>
+            </tr>
+            <tr>
+              <th scope="row">Contracting Identity</th>
+              <td>
+                Confirm the legal entity providing the service,
+                its contractual role and any separate providers
+                involved before engagement.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3 id="oneoffice-services" class="registry-section-title">
+          Services, Scope &amp; Intended Outcomes
+        </h3>
+
+        <p>
+          <strong>
+            Buy a defined establishment project—not an undefined
+            promise to “take care of everything”.
+          </strong>
+          Use the following workstreams to establish what 1Office
+          Sweden would handle, what the founder must supply
+          and what needs a separate specialist.
+        </p>
+
+        <table class="registry-table registry-table--record">
+          <caption class="sr-only">
+            Proposed workstreams to confirm with the provider
+          </caption>
+          <tbody>
+            <tr>
+              <th scope="row">Structure and Formation Route</th>
+              <td>
+                <strong>Outcome: a clearly defined setup route.</strong>
+                Explain the ownership, intended activity and management
+                arrangements. Confirm whether the engagement includes
+                advice on structure or implements a route already
+                selected with legal and tax advisers.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Formation Documentation</th>
+              <td>
+                <strong>Outcome: a consistent foundational record.</strong>
+                Establish which documents are prepared, which require
+                founder input and who checks identity, ownership
+                and representation details.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Registration Coordination</th>
+              <td>
+                <strong>Outcome: visible progress and responsibilities.</strong>
+                Agree who submits applications, receives correspondence,
+                responds to questions and confirms registration status.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Tax Onboarding</th>
+              <td>
+                <strong>Outcome: the relevant applications are identified.</strong>
+                Confirm any assistance with F-tax, VAT or employer
+                matters, including the information required and
+                whether specialist tax advice is a separate service.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Address and Correspondence</th>
+              <td>
+                <strong>Outcome: reliable administrative contact.</strong>
+                If an address or mail service is required, confirm
+                availability, permitted use, handling arrangements,
+                pricing and termination terms. Do not assume that
+                it establishes operational substance or tax residence.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Banking Preparation</th>
+              <td>
+                <strong>Outcome: a realistic onboarding plan.</strong>
+                Ask what preparation or coordination is available.
+                Distinguish help assembling documents from the
+                bank's independent decision to open an account.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Accounting and Employer Handover</th>
+              <td>
+                <strong>Outcome: clarity after registration.</strong>
+                If ongoing accounting or payroll is needed,
+                establish whether it is available and how
+                the new entity moves into a separately scoped
+                recurring service.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Cross-Border Documents</th>
+              <td>
+                <strong>Outcome: fewer avoidable document gaps.</strong>
+                Establish the accepted form of foreign corporate
+                and identity records, any translation requirements
+                and the responsibilities of owners and representatives.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3 id="oneoffice-problems" class="registry-section-title">
+          Business Problems Behind the Enquiry
+        </h3>
+
+        <p>
+          The formation question is often practical:
+          “How do we put the right structure in place without
+          leaving important steps between providers?”
+          These are useful starting points for an enquiry,
+          not claims about named client engagements.
+        </p>
+
+        <table class="registry-table registry-table--record">
+          <caption class="sr-only">Employer and founder needs</caption>
+          <tbody>
+            <tr>
+              <th scope="row">“We Need a Swedish Business Presence”</th>
+              <td>
+                Clarify what the Swedish operation will do,
+                who will own it and whether a new company,
+                branch or another arrangement should be assessed.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">“We Do Not Know Which Steps Are Separate”</th>
+              <td>
+                Build a project map that distinguishes company
+                registration, tax administration, banking,
+                accounting and any activity-specific permissions.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">“Our Owners and Documents Are Abroad”</th>
+              <td>
+                Identify the foreign parties, document sources
+                and representation arrangements early, rather
+                than discovering missing evidence after submission.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">“We Have a Commercial Start Date”</th>
+              <td>
+                Work backwards from the intended activity,
+                separating provider-controlled tasks from
+                authority processing and bank onboarding.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">“We Need Someone to Own the Process”</th>
+              <td>
+                Request a named project contact, a responsibility
+                schedule and a clear account of what is included
+                and what remains with the founder.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">“We Need Support After Incorporation”</th>
+              <td>
+                Define the handover into ongoing administration
+                before formation is complete, and agree any
+                recurring service separately.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3 id="oneoffice-client-fit" class="registry-section-title">
+          Best-Fit Enquiry Profiles
+        </h3>
+
+        <p>
+          These categories describe potential fit for the mandate
+          presented here. They are not a verified statement of
+          1Office Sweden's preferred customers, sector specialisms
+          or disclosed client base.
+        </p>
+
+        <table class="registry-table registry-table--record">
+          <caption class="sr-only">Potential clients and assignment conditions</caption>
+          <tbody>
+            <tr>
+              <th scope="row">Foreign Owners Establishing in Sweden</th>
+              <td>
+                An enquiry is strongest when it explains the intended
+                Swedish activity, ownership, management and available
+                documents, and identifies where cross-border
+                legal or tax input is needed.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Founders Wanting Practical Coordination</th>
+              <td>
+                Relevant where the founder wants defined assistance
+                with documents and setup rather than treating
+                each administrative step as an isolated task.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">International Groups</th>
+              <td>
+                Suitable to discuss once the group can explain
+                the role of the Swedish operation and the
+                division between local implementation and
+                group-level structuring advice.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Owner-Managed Businesses</th>
+              <td>
+                The brief should connect the chosen structure
+                with the owner's intended activity, management
+                arrangements and ongoing administrative needs.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Advisers Seeking Local Execution</th>
+              <td>
+                Clarify whether legal and tax decisions have
+                already been made and what implementation
+                assistance is required in Sweden.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Founders Ready to Provide Evidence</th>
+              <td>
+                A workable assignment requires accurate ownership,
+                identity, management and business information.
+                Outsourcing coordination does not remove
+                the client's responsibility to supply it.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3 id="oneoffice-boundaries" class="registry-section-title">
+          When Another Mandate May Fit Better
+        </h3>
+
+        <p>
+          Good matching includes boundaries. The distinctions
+          below concern the service required, not an assertion
+          that 1Office refuses particular customers or lacks
+          an adjacent capability.
+        </p>
+
+        <table class="registry-table registry-table--record">
+          <caption class="sr-only">Assignment limits and specialist needs</caption>
+          <tbody>
+            <tr>
+              <th scope="row">Unresolved International Tax Structuring</th>
+              <td>
+                Questions about residence, permanent establishment,
+                financing or group taxation may need specialist
+                advice before standard formation work can implement
+                the selected structure.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Complex Shareholder or Investment Terms</th>
+              <td>
+                Founder disputes, bespoke shareholder rights,
+                investment instruments and negotiated governance
+                should not be assumed to fall within a
+                standard incorporation package.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">A Guaranteed Bank Account Is Required</th>
+              <td>
+                Do not treat formation assistance as a bank
+                approval commitment. Confirm the actual scope
+                of any banking-related support.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Residence or Work Permission Is the Main Need</th>
+              <td>
+                Personal immigration questions require their
+                own assessment. Establishing a company should
+                not be presented as automatic permission
+                to live or work in Sweden.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Regulated Business Approval</th>
+              <td>
+                Registration of a company is distinct from
+                permission to undertake a regulated activity.
+                Confirm the relevant specialist workstream.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Only General Business Coaching Is Needed</th>
+              <td>
+                Market validation, sales strategy and fundraising
+                coaching are different from legal and
+                administrative establishment.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3 id="oneoffice-differentiation" class="registry-section-title">
+          Differentiation That Matters
+        </h3>
+
+        <p>
+          <strong>
+            The meaningful difference is what happens
+            between “registered” and “ready”.
+          </strong>
+          For this registry position, the commercial selection
+          criteria are coordination, clarity of scope and
+          continuity into administration. These are points
+          to substantiate in 1Office Sweden's proposal,
+          not advantages independently verified here.
+        </p>
+
+        <table class="registry-table registry-table--record">
+          <caption class="sr-only">Practical provider selection criteria</caption>
+          <tbody>
+            <tr>
+              <th scope="row">A Project View, Not Just a Filing</th>
+              <td>
+                Look for a proposal that explains how documents,
+                registration, tax applications and operational
+                dependencies connect—and which elements
+                are outside the engagement.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Clarity for International Owners</th>
+              <td>
+                Assess how the proposed team explains document
+                requirements, representation, communication
+                and matters requiring separate advice.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">An Explicit Handover</th>
+              <td>
+                Ask what happens after registration:
+                which records the client receives, what remains
+                outstanding and who takes responsibility next.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Transparent Package Boundaries</th>
+              <td>
+                Compare the complete scope rather than a
+                headline price. Distinguish official charges,
+                capital, professional fees and recurring services.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Realistic Timing</th>
+              <td>
+                A credible timetable separates document preparation,
+                authority handling and third-party approval,
+                and identifies what could change the schedule.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">A Named Point of Accountability</th>
+              <td>
+                Confirm who coordinates the project, how progress
+                is reported and how questions or scope changes
+                are escalated.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3 id="oneoffice-evidence" class="registry-section-title">
+          Evidence &amp; Professional Credibility
+        </h3>
+
+        <p>
+          A strong presentation should make its evidence visible.
+          The distinction here is between the provider information
+          supplied for inclusion and company merits that have
+          not been independently checked.
+        </p>
+
+        <table class="registry-table registry-table--record">
+          <caption class="sr-only">Evidence status</caption>
+          <tbody>
+            <tr>
+              <th scope="row">Official Provider Reference</th>
+              <td>
+                <a
+                  href="https://1office.co/sweden/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  1Office Sweden — official country page
+                </a>
+                is the website supplied for this replacement.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Service Claims</th>
+              <td>
+                The formation workstreams in this profile describe
+                the scope to confirm. They are not a verified
+                inventory of the provider's current packages.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Experience and Team Credentials</th>
+              <td>
+                Request relevant experience and the proposed
+                team's role in the assignment. No unverified
+                years of experience, staffing figures or
+                professional qualifications are asserted.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Customer Feedback</th>
+              <td>
+                No testimonial, customer quotation, review score
+                or satisfaction measure is reproduced without
+                a checked source and context.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Awards and Memberships</th>
+              <td>
+                No award, accreditation, professional membership
+                or industry ranking is claimed in this version.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Case Examples and Results</th>
+              <td>
+                No client names, formation volumes, completion rates
+                or promised outcomes are invented.
+                Relevant references should be obtained directly.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3 id="oneoffice-geography" class="registry-section-title">
+          Geography &amp; International Coordination
+        </h3>
+
+        <table class="registry-table registry-table--record">
+          <caption class="sr-only">Geographic and language scope</caption>
+          <tbody>
+            <tr>
+              <th scope="row">Swedish Enquiry Context</th>
+              <td>
+                The profile is linked to the provider's supplied
+                Sweden page and this registry's Swedish
+                company-formation record.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Foreign Owners</th>
+              <td>
+                Explain the countries of the founders,
+                corporate owners and management so the
+                provider can assess the documents and
+                service availability for the actual project.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">International Group Matters</th>
+              <td>
+                Separate Swedish implementation from advice
+                on foreign tax, foreign corporate law
+                and group-level structuring.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Offices and Delivery Coverage</th>
+              <td>
+                This profile does not assert an office network,
+                local representative arrangement or capacity
+                in additional countries without verification.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Working Languages</th>
+              <td>
+                Confirm the languages available for communication,
+                document preparation and reporting, together
+                with any translation requirements.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3 id="oneoffice-buying-situations" class="registry-section-title">
+          When to Start a Conversation
+        </h3>
+
+        <p>
+          A specific brief allows 1Office Sweden to say whether
+          its service fits. These examples are proposed enquiries,
+          not claims about completed company assignments.
+        </p>
+
+        <table class="registry-table registry-table--record">
+          <caption class="sr-only">Concrete buying situations</caption>
+          <tbody>
+            <tr>
+              <th scope="row">Before Committing to Market Entry</th>
+              <td>
+                “We plan to conduct this activity in Sweden.
+                What formation support can you provide, and
+                which structure and tax decisions need
+                separate advice first?”
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">When the Structure Has Been Selected</th>
+              <td>
+                “Our advisers have defined the ownership
+                and establishment route. Can you help
+                implement the agreed setup?”
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">When Foreign Documents Are Involved</th>
+              <td>
+                “Our owners are outside Sweden.
+                Which records would you require, and
+                what preparation should we complete?”
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Before the First Local Hire</th>
+              <td>
+                “We need a Swedish operating structure
+                and a clear handover into the relevant
+                employer and administrative arrangements.”
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">When Comparing Provider Proposals</th>
+              <td>
+                “Please identify your deliverables,
+                exclusions, timetable, founder responsibilities,
+                official charges and any recurring commitments.”
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">When Ongoing Support Is Also Needed</th>
+              <td>
+                “We need to understand not only the formation
+                work but which administrative services
+                could follow under a separate agreement.”
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3 id="oneoffice-delivery" class="registry-section-title">
+          Capacity, Responsibilities &amp; Working Approach
+        </h3>
+
+        <p>
+          The delivery plan should make the project easy to
+          follow without suggesting that every stage is
+          controlled by the service provider. The framework
+          below is a suggested engagement structure,
+          not a statement of 1Office's internal methodology.
+        </p>
+
+        <table class="registry-table registry-table--record">
+          <caption class="sr-only">Engagement delivery framework</caption>
+          <tbody>
+            <tr>
+              <th scope="row">1. Scope the Actual Business</th>
+              <td>
+                Record the activity, participants, location,
+                intended start date and reasons for
+                establishing in Sweden.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">2. Confirm the Service Boundary</th>
+              <td>
+                Identify the work included, the decisions
+                already taken and any legal, tax or
+                regulatory input still required.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">3. Agree the Team and Capacity</th>
+              <td>
+                Confirm the contact person, available
+                resources, target milestones and expected
+                client response times.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">4. Assemble and Check Documents</th>
+              <td>
+                Establish a checklist and resolve inconsistencies
+                before applications or third-party onboarding.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">5. Track Separate Workstreams</th>
+              <td>
+                Show the status of formation, tax applications,
+                banking preparation and administrative setup
+                without conflating their completion.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">6. Report Outstanding Dependencies</th>
+              <td>
+                Explain what is awaiting authority action,
+                bank review, founder information or
+                another professional's input.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">7. Complete the Handover</th>
+              <td>
+                Deliver the agreed records, explain remaining
+                actions and identify responsibility for
+                ongoing correspondence and administration.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3 id="oneoffice-alternatives" class="registry-section-title">
+          Position Among Provider Options
+        </h3>
+
+        <p>
+          This comparison concerns delivery models, not a ranking
+          of named competitors. Evaluate 1Office Sweden against
+          the actual work required and the proposal it supplies.
+        </p>
+
+        <div class="registry-table-wrap">
+          <table class="registry-table registry-table--comparison">
+            <caption class="sr-only">
+              Provider models and appropriate assignment contexts
+            </caption>
+            <thead>
+              <tr>
+                <th scope="col">Option</th>
+                <th scope="col">Potential Fit</th>
+                <th scope="col">Selection Question</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Direct Authority Route</th>
+                <td>
+                  The founders understand the chosen structure
+                  and can handle the required documents
+                  and administration themselves.
+                </td>
+                <td>
+                  Which tasks genuinely require external
+                  support, and which can be completed directly?
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Formation Service Provider</th>
+                <td>
+                  Defined implementation and administrative
+                  coordination are needed.
+                  This is the enquiry context used here.
+                </td>
+                <td>
+                  What exactly does the proposed package
+                  include, and what happens after registration?
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Accounting-Led Setup</th>
+                <td>
+                  Formation is closely connected with
+                  an already selected accounting
+                  and reporting arrangement.
+                </td>
+                <td>
+                  Does the scope cover establishment
+                  or only ongoing financial administration?
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Corporate Law Firm</th>
+                <td>
+                  Bespoke ownership, governance,
+                  negotiated investment terms or
+                  material legal risk is central.
+                </td>
+                <td>
+                  Which legal decisions need to be resolved
+                  before administrative implementation?
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">International Tax Adviser</th>
+                <td>
+                  Tax residence, group structure,
+                  permanent establishment or financing
+                  determines the appropriate route.
+                </td>
+                <td>
+                  Is the tax analysis settled,
+                  and who is accountable for it?
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Multiple Specialist Providers</th>
+                <td>
+                  The project needs several disciplines
+                  that cannot responsibly be treated
+                  as a single standard package.
+                </td>
+                <td>
+                  Who coordinates the interfaces,
+                  documents and final handover?
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3 id="oneoffice-terminology" class="registry-section-title">
+          Terminology &amp; Search Intent
+        </h3>
+
+        <p>
+          Company identity and registry subject should remain
+          distinguishable. The terminology below helps describe
+          an enquiry without asserting that the provider
+          supplies every related service.
+        </p>
+
+        <table class="registry-table registry-table--record">
+          <caption class="sr-only">Identity and subject vocabulary</caption>
+          <tbody>
+            <tr>
+              <th scope="row">Provider Identity</th>
+              <td>
+                1Office Sweden · 1Office · 1office.co/sweden/
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Core Registry Subject</th>
+              <td>
+                Company formation Sweden · Swedish business
+                establishment · bolagsbildning ·
+                starta företag i Sverige · företagsregistrering
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Structure Vocabulary</th>
+              <td>
+                Aktiebolag · AB · private limited company ·
+                subsidiary · dotterbolag · branch · filial ·
+                sole trader · enskild näringsverksamhet
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Implementation Vocabulary</th>
+              <td>
+                Formation documents · constitutional documents ·
+                ownership information · board and signatories ·
+                Bolagsverket · tax onboarding · F-tax ·
+                VAT registration · employer registration
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Operational Vocabulary</th>
+              <td>
+                Bank onboarding · bookkeeping setup ·
+                accounting handover · administrative address ·
+                payroll preparation · authority correspondence
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Problem-Led Enquiries</th>
+              <td>
+                “We want to establish a business in Sweden” ·
+                “Our foreign company needs a Swedish presence” ·
+                “We need help implementing an agreed structure” ·
+                “What remains after company registration?” ·
+                “Can the setup connect to ongoing administration?”
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Retrieval Boundary</th>
+              <td>
+                Related terminology does not establish
+                confirmed provider capability, qualifications,
+                geographic coverage, package availability
+                or a guaranteed result.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3 id="oneoffice-contact" class="registry-section-title">
+          Contact &amp; Initial Project Brief
+        </h3>
+
+        <p>
+          <strong>
+            Start with the business you intend to operate,
+            not only the company you want registered.
+          </strong>
+          Use the official Sweden page to obtain the current
+          contact route and ask for a proposal tied
+          to your actual establishment requirements.
+        </p>
+
+        <table class="registry-table registry-table--record">
+          <caption class="sr-only">Provider contact and project preparation</caption>
+          <tbody>
+            <tr>
+              <th scope="row">Provider</th>
+              <td><strong>1Office Sweden</strong></td>
+            </tr>
+            <tr>
+              <th scope="row">Official Sweden Page</th>
+              <td>
+                <a
+                  href="https://1office.co/sweden/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  https://1office.co/sweden/
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Professional Enquiries</th>
+              <td>
+                Follow the current contact instructions
+                on the official Sweden page.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Telephone, Email and Office</th>
+              <td>
+                Obtain current details directly from the provider.
+                Unverified direct contact information is not
+                reproduced in this version.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Describe the Activity</th>
+              <td>
+                What the business will sell or do,
+                where work takes place, expected customers
+                and whether local staff are planned.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Describe the Participants</th>
+              <td>
+                Founders, corporate owners, countries involved,
+                proposed management and authorised project contacts.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Describe the Required Support</th>
+              <td>
+                Formation implementation, registration coordination,
+                tax applications, document preparation
+                or separately scoped administrative services.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Explain the Timing</th>
+              <td>
+                The target launch date and any commercial
+                commitments, hiring plans or documents
+                that may affect the sequence.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Request a Complete Proposal</th>
+              <td>
+                Contracting entity, scope, exclusions,
+                responsibilities, timetable, professional fees,
+                official charges and any recurring commitments.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Sensitive Information</th>
+              <td>
+                Confirm secure intake and document-handling
+                instructions before sending passports,
+                financial records or ownership evidence.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p class="registry-source-note">
+          Provider name and official Sweden URL supplied by
+          the registry publisher. Service workstreams, client-fit
+          categories and comparisons are editorial engagement
+          guidance, not independently verified company claims.
+          Confirm current services, credentials, contacts
+          and contractual terms directly with 1Office Sweden.
+        </p>
+      </section>
+
+      <section id="machine-layer" class="registry-section">
+        <h2 class="registry-section-title">Machine Layer</h2>
+
+        <p>
+          These fields distinguish the jurisdictional subject
+          from the provider record and identify the limits
+          of company-specific matching.
+        </p>
+
+        <table class="registry-table registry-table--record">
+          <caption class="sr-only">Machine-oriented reference fields</caption>
+          <tbody>
+            <tr>
+              <th scope="row">Object DNA</th>
+              <td>
+                company-formation sweden corporate-establishment
+                bolagsverket skatteverket verksamt aktiebolag
+                limited-company sole-trader branch subsidiary
+                governance vat f-tax employer-registration
+                operational-readiness cross-border
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">AI Retrieval Summary</th>
+              <td>
+                Editorial registry object describing company
+                formation in Sweden, including legal forms,
+                registration interfaces, foundational documents,
+                governance, tax onboarding, banking dependencies
+                and cross-border establishment considerations.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Provider Entity</th>
+              <td>
+                1Office Sweden.
+                Official supplied URL:
+                https://1office.co/sweden/.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Provider Position</th>
+              <td>
+                Publisher-selected record in the Registered Expert
+                section for Company Formation Sweden.
+                Position ID: CFR-SE-CF-001-A-EXP.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Matching Context</th>
+              <td>
+                Proposed enquiries concerning Swedish business
+                establishment, formation implementation and
+                coordination of initial administrative steps.
+                Actual service availability requires confirmation.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Claim Qualification</th>
+              <td>
+                Profile workstreams and client situations are
+                editorial scoping guidance. They are not
+                a verified service catalogue, customer list
+                or statement of company-preferred assignments.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Evidence Qualification</th>
+              <td>
+                No unverified awards, qualifications, testimonials,
+                client names, performance statistics, office
+                network or historical claims are asserted.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Contact Qualification</th>
+              <td>
+                Use the official Sweden page for current contact
+                details. No unverified telephone, email
+                or address is encoded.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Operational Boundaries</th>
+              <td>
+                Formation does not itself establish bank approval,
+                immigration permission, a resolved international
+                tax position or permission for regulated activity.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Legal Currency</th>
+              <td>
+                Presentation revision does not certify a full
+                current-law verification of the jurisdictional record.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Entity Index</th>
+              <td>
+                Sweden · Company Formation · 1Office Sweden ·
+                Bolagsverket · Swedish Companies Registration Office ·
+                Skatteverket · Swedish Tax Agency · Verksamt ·
+                Limited Company · Aktiebolag · Sole Trader ·
+                Branch · Subsidiary · Governance · VAT ·
+                F-tax · Employer Registration
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Machine Metadata</th>
+              <td>
+                Registry rendering layer:
+                https://companyformationregistry.org/css/registry.css —
+                Object ID: SE.CF.001 —
+                Machine Reference: CFR-SE-CF-001-A —
+                Internal Classification:
+                Business &gt; Corporate Establishment &amp; Registration &gt;
+                Company Formation &gt; Sweden
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Internal References</th>
+              <td>
+                Registry Object — Jurisdiction Node —
+                Editorial Reference — Provider Profile —
+                Registered Expert Position —
+                Machine-readable Reference Node
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
   </div>
 
-  <script>
-    document.getElementById('current-year').textContent = new Date().getFullYear();
-  </script>
-</body>
-</html>
+  <footer class="registry-footer">
+    <div class="registry-footer-inner">
+      <div class="registry-footer-brand">
+        Company Formation Registry
+      </div>
+
+      <div class="registry-footer-record">
+        <div>END OF RECORD</div>
+        <div>
+          Classification:
+          Business &gt; Corporate Establishment &amp; Registration &gt;
+          Company Formation &gt; Sweden
+        </div>
+        <div>Machine Reference: CFR-SE-CF-001-A</div>
+        <div>Registry Scope: Domestic and cross-border establishment</div>
+        <div>Record Type: Editorial reference</div>
+      </div>
+
+      <nav class="registry-footer-nav" aria-label="Footer navigation">
+        <a href="/">Home</a>
+        <a href="/jurisdictions/">Jurisdictions</a>
+        <a href="#expert">Registered Expert</a>
+        <a href="#main-content">Back to content</a>
+      </nav>
+
+      <div class="registry-footer-copy">
+        <p>
+          Editorial reference only. This record is not individual
+          legal, tax, accounting, banking, immigration or
+          regulatory advice. Verify current requirements
+          for the specific establishment project.
+        </p>
+
+        <p>
+          Provider information is separate from the jurisdictional
+          reference. Registry inclusion is not a public-authority
+          approval, professional accreditation or confirmation
+          of a participation agreement.
+        </p>
+
+        <p>
+          © 2026 Company Formation Registry. All rights reserved.
+        </p>
+      </div>
+    </
